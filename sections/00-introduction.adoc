@@ -1,0 +1,15 @@
+
+[[introduction]]
+== Introduction
+
+The Nereon project aims to unify and glue together cloud
+configuration management through the Nereon data models.
+
+The Nereon Object Configuration syntax (NOC) and Nereon Object Configuration Schema syntax (NOS)
+are methods used to express configuration settings in
+Nereon data models, and can also be used as interchangeable
+files.
+
+Nereon models: https://github.com/riboseinc/nereon-models
+
+Nereon is a play on Nereus, the shapeshifting sea god of the Greeks, the eldest son of Pontus and Gaia. "`Nereon`" literally means "`place of Nereus`", representing the shape-shifting nature of configuration.

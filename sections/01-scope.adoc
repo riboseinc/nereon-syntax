@@ -1,0 +1,8 @@
+
+[[scope]]
+== Scope
+
+This document defines the Nereon Object Configuration Syntax (NOC) and
+Nereon Object Configuration Schema Syntax (NOS).
+
+(TODO.)
