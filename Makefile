@@ -9,7 +9,7 @@ SRC_doc      := $(ALL_ADOC_SRC)
 SRC_xml      := $(ALL_ADOC_SRC)
 SRC_html     := $(ALL_ADOC_SRC)
 
-MAIN_UML_SRC := model.uml
+MAIN_UML_SRC := 
 XMI          := $(patsubst %.uml,%.xmi,$(MAIN_UML_SRC))
 PNG          := $(patsubst %.uml,%.png,$(MAIN_UML_SRC))
 SVG          := $(patsubst %.uml,%.svg,$(MAIN_UML_SRC))
