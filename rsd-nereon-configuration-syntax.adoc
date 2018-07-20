@@ -3,7 +3,7 @@
 :edition: 1
 :ref-docnumber: RS 13001:2018(E)
 :copyright-year: 2018
-:revdate: 20180716T00:00:00Z
+:revdate: 20180720T12:15:00Z
 :language: en
 :script: Latn
 :title: Configuration management -- Nereon configuration model -- Object configuration and schema syntax
