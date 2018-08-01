@@ -1,5 +1,240 @@
 [[syntax]]
 == Nereon Configuration and Schema Syntax
 
-TBD.
+Nereon configurations (NOC) and schemas (NOS) are described using
+Nereon object notation (NON), a JSON-like data format. Because of its
+exacting syntax JSON is not a good choice for human generated
+content. NON has evolved to ease this friction between humans and
+JSON.
 
+NON translates directly into JSON and JSON is valid NON.
+
+=== Document Structure
+
+NON describes a tree-like data structure. At the base of the tree is
+a single root node. NON defines string, array and dictionary
+nodes. Array and dictionary nodes are branch nodes. These may contain
+other nodes. Strings are leaf nodes. Strings hold the configuration
+values.
+
+==== Lexical Conventions
+
+NON data MUST be utf8 encoded. There are a limited number of special
+characters that have meaning within a NON document. All other
+characters, outside of quoted strings, are treated as whitespace. The
+special characters are:
+
+ {}[]"'#CR,
+
+==== String
+
+Strings are enclosed in matching double or single quotation
+marks. Strings comprising alphanumeric and underscore `_` characters
+need not be enclosed in quotation marks. Multi-line strings are
+allowed as long as they are enclosed in matching quotes. Adjacent
+strings (ie. strings defined next to each other without intervening
+whitespace) are concatenated.
+
+Examples:
+
+[source]
+----
+"The Rachel Papers"
+Success
+Money
+'Time'"'s Arrow"
+----
+
+==== Array
+
+An array is an ordered set of nodes called elements. Arrays are
+enclosed in square braces. Within the braces are zero or more
+elements separated by one or more whitespace, comma or CR
+characters. Elements are numbered, starting at zero. Numbers are
+assigned, in ascending order, to each element in the order in which
+they are defined.
+
+Example:
+
+[source]
+----
+[
+    Aglovale Breunor Claudin Calogrenant Dinadan "Elyan the White"
+    Erec Galeschin Gornemant "Hector de Maris" Lucan "Meliant de Lis"
+    Morholt Safir Segwarides Tor
+]
+----
+
+==== Dictionary
+
+A dictionary is an unordered set of key and node pairs called
+entries. A dictionary is enclosed in curly braces. Within the braces
+are zero or more entries. Entries are separated by commas or CR
+characters. Keys are strings. Dictionary entries are defined by
+specifying a key and a node separated by any combination of
+whitespace characters. Duplicate keys within a dictionary are not
+allowed.
+
+Example:
+
+[source]
+----
+contact {
+    name "John Doe"
+    email {
+        work "john.doe@work.domain"
+        home "john@home.domain"
+    }
+}
+----
+
+An additional syntax is defined for dictionary items where multiple
+keys precede the node. This syntax is only allowed within a
+dictionary node and has the effect of recursively defining implicit
+nested dictionary nodes with the initial keys. The final key and
+the node are used to create an entry within the most deeply nested
+dictionary. Using this syntax the above example can be written as:
+
+[source]
+----
+contact {
+    name "John Doe"
+    email work "john.doe@work.domain"
+    email home "john@home.domain"
+}
+----
+
+or
+
+[source]
+----
+contact name "John Doe"
+contact email work "john.doe@work.domain"
+contact email home "john@home.domain"
+----
+
+==== Comment
+
+The hash character indicates a comment which runs up to the next
+CR. Comments are treated as whitespace (ie. ignored).
+
+==== Root Node
+
+The type of the root node is determined as follows:
+
+- If the document contains a single string node the root node is
+assumed to be a string.
+
+- If the document contains a series of comma or CR separated nodes the
+root node is assumed to be an array. A single string followed by a
+comma is assumed to be an array. A single comma is assumed to be an
+empty array.
+
+- Otherwise the root node is assumed to be a (possibly empty)
+dictionary.
+
+=== Interpolation
+
+Strings are interpolated: any occurrence of ${expr} within a string
+will be replaced by an expansion based on expr. There are currently
+three types of expression that can be expanded. These are
+differentiated by one of the expansion prefixes; node, env or
+file. Expansion occurs just once. If an expression expands to
+${expr1}, expr1 will not be further expanded. Expressions can refer
+to other nodes containing other expansions as long as this doesn't
+result in cyclic references.
+
+If the string node being expanded comprises just the expansion
+(ie. "${expr}") then the node itself is replaced by the
+expansion. In this way whole branches can be grafted into the
+document tree.
+
+If the string node being expanded contains other data beside the
+expansion (eg. "/home/${expr}") the expansions are substituted into
+the original string node. It is not an error if the expansion is not
+a string node but the expanded value is implementation defined.
+
+==== Node Expansion
+
+Node expansions are defined using the ${node:path} syntax. The path
+is a dot separated list of keys specifying the node, within the
+current document, to use for the expansion. Keys used in paths are
+limited to comprising alphanumeric and '_' characters.
+
+Examples:
+
+[source]
+----
+name Beryl
+birthday "May 4th"
+likes "flying kites"
+bio "${node:name}'s birthday is ${node:birthday}. ${node:name} likes ${node:likes}."
+----
+is equivalent to:
+[source]
+----
+name Beryl
+birthday "May 4th"
+likes "flying kites"
+bio "Beryl's birthday is May 4th. Beryl likes flying kites."
+----
+
+[source]
+----
+auth passwd {
+    name user
+    pass secret
+}
+mail1 login "${node:auth.passwd}"
+mail1 use_tls yes
+mail2 login "${node:auth.passwd}"
+mail2 use_tls no
+----
+is equivalent to:
+[source]
+----
+auth passwd {
+    name user
+    pass secret
+}
+mail1 {
+    login {
+        name user
+        pass secret
+    }
+    use_tls yes
+}
+mail2 {
+    login {
+        name user
+        pass secret
+    }
+    use_tls no
+}
+----
+
+==== Environment expansion
+
+Environment expansions are defined using the ${env:var} syntax.
+
+Environment expansions use the environment variable, var, as the
+expanded value. This is always a string and, if the environment
+variable is not set, will be expanded to the empty string "".
+
+Example:
+
+[source]
+----
+path "${env:HOME}"
+----
+
+==== File expansion
+
+File expansions are defined using the ${file:filename} syntax.
+
+The file is loaded and fully parsed into a NON node. This node is
+then used as the expanded value.
+
+The file is parsed as a separate unit and so any expansions in the
+file are resolved independently. This means expansions in the file
+cannot refer to nodes in the document being interpolated.
