@@ -2,38 +2,97 @@
 == Nereon Configuration and Schema Syntax
 
 Nereon configurations (NOC) and schemas (NOS) are described using
-Nereon object notation (NON), a JSON-like data format. Because of its
-exacting syntax JSON is not a good choice for human generated
-content. NON has evolved to ease this friction between humans and
-JSON.
+Nereon object notation (NON). NON is a structured configuration
+language influenced by JSON, UCL and HCL using a syntax influenced by
+traditional shell interfaces.
 
-NON translates directly into JSON and JSON is valid NON.
+NON templates can be defined to capture and reuse values and NON
+interpolation functions provide a mechanism for manipulating values
+when configuration is parsed.
 
 === Document Structure
 
-NON describes a tree-like data structure. At the base of the tree is
-a single root node. NON defines string, array and dictionary
-nodes. Array and dictionary nodes are branch nodes. These may contain
-other nodes. Strings are leaf nodes. Strings hold the configuration
-values.
+NON defines three types of value; table, list and string. A table is a
+list of named values where names are strings. A list is an ordered
+list of values. A string is a textual representation of data.
 
-==== Lexical Conventions
+NON data MUST be utf8 encoded.
 
-NON data MUST be utf8 encoded. There are a limited number of special
-characters that have meaning within a NON document. All other
-characters, outside of quoted strings, are treated as whitespace. The
-special characters are:
+A NON document comprises a single NON table value.
 
- {}[]"'#CR,
+==== Special Characters
+
+There are a number of characters that have special meaning
+within a NON document. All other characters are considered part of a
+string value. The special characters are:
+
+[cols="3*", options="headers"]
+|===
+|Character|ASCII|Meaning
+
+|SPC  |32  |Separates keys and values in a table and surrounds infix operators
+|TAB  |9   |Separates keys and values in a table and surrounds infox operators
+|`(`  |40  |Marks the start of the parameter list for interpolation functions
+|`)`  |41  |Marks the end of the parameter list for interpolation functions
+|`{`  |123 |Marks the start of a table value
+|`}`  |125 |Marks the end of a table value
+|`[`  |91  |Marks the start of a list value
+|`]`  |93  |Marks the end of a list value
+|`"`  |34  |Marks the start and end of a quoted string
+|`#`  |35  |Marks the beginning of a comment
+|`$`  |36  |Marks a template application without parameters
+|CR   |10  |Separates entries within tables, lists and parameter lists
+|`,`  |44  |Separates entries within tables, lists and parameter lists
+|`\`  |92  |Indicates an exscape sequence
+|===
 
 ==== String
 
-Strings are enclosed in matching double or single quotation
-marks. Strings comprising alphanumeric and underscore `_` characters
-need not be enclosed in quotation marks. Multi-line strings are
-allowed as long as they are enclosed in matching quotes. Adjacent
-strings (ie. strings defined next to each other without intervening
-whitespace) are concatenated.
+Strings can be either bare or quoted. A bare string comprises one or
+more characters not listed in the 'Special Characters' section above.
+
+The following Special characters can be included within a bare string
+if they are escaped with the backslash (`\` ASCII 92) character.
+
+[options="header"]
+|===
+|Sequence|Meaning|ASCII
+|`\(` |Open brace         |40
+|`\)` |Close brace        |41
+|`\{` |Open curly brace   |123
+|`\}` |Close curly brace  |125
+|`\[` |Open square brace  |91
+|`\]` |Close square brace |93
+|`\#` |Hash sign          |35
+|`\$` |Dollar sign        |35
+|`\,` |Comma              |44
+|`\ ` |Space              |32
+|===
+
+Quoted strings are enclosed in double quotation marks (`"` ASCII
+34) and may contain any of the `Special Characters` above with the
+exception of `\` (ASCII 92) and `"` (ASCII 34). `\` and `"` must
+always be escaped.
+
+The following escape sequences are recognised in both bare and quoted
+strings:
+
+[cols="3*", options="header"]
+|===
+|Escape Sequence |ASCII |Character represented
+|\n         |10   |Newline (Line Feed)
+|\r         |13   |Carriage Return
+|\t         |9    |Horizontal Tab
+|\\         |92   |Backslash
+|\'         |39   |Single quotation mark
+|\"         |34   |Double quotation mark
+|\0nn       |any  |The byte whose numerical value is given by 0nn interpreted as an octal number
+|\xhh       |any  |The byte whose numerical value is given by hh interpreted as a hexadecimal number
+|\Uhhhhhhhh |none |Unicode code point where h is a hexadecimal digit
+|\uhhhh     |none |Unicode code point below 10000 hexadecimal
+|===
+
+Multi-line strings are permitted as long as they are quoted.
 
 Examples:
 
@@ -42,38 +101,43 @@ Examples:
 "The Rachel Papers"
 Success
 Money
-'Time'"'s Arrow"
+"Time's Arrow"
 ----
 
-==== Array
+==== List
 
-An array is an ordered set of nodes called elements. Arrays are
-enclosed in square braces. Within the braces are zero or more
-elements separated by one or more whitespace, comma or CR
-characters. Elements are numbered, starting at zero. Numbers are
-assigned, in ascending order, to each element in the order in which
-they are defined.
+A list is an ordered set of values. Lists are enclosed in square
+braces (`[]` ASCCI 91/93). Within the braces are zero or more values
+separated by one or more comma (`,` ASCII 44) or newline (ASCII 10)
+characters. Values are numbered, starting at zero. Numbers are
+assigned to each value in the order in which they are defined.
 
 Example:
 
 [source]
 ----
 [
-    Aglovale Breunor Claudin Calogrenant Dinadan "Elyan the White"
-    Erec Galeschin Gornemant "Hector de Maris" Lucan "Meliant de Lis"
-    Morholt Safir Segwarides Tor
+    Aglovale, Breunor, Claudin
+    Calogrenant, Dinadan, "Elyan the White"
+
+    Erec, Galeschin, Gornemant,
+    "Hector de Maris", Lucan,
+    "Meliant de Lis", Morholt
+    Safir, Segwarides, Tor
 ]
 ----
 
-==== Dictionary
+==== Table
 
-A dictionary is an unordered set of key and node pairs called
-entries. A dictionary is enclosed in curly braces. Within the braces
-are zero or more entries. Entries are separated by commas or CR
-characters. Keys are strings. Dictionary entries are defined by
-specifying a key and a node separated by any combination of
-whitespace characters. Duplicate keys within a dictionary are not
-allowed.
+A table is an unordered set of key and value pairs. A table is
+enclosed in curly braces (`{}` ASCII 123/125). Within the braces are
+zero or more key/value pairs. Pairs are separated by one or more comma
+(`,` ASCII 44) or newline (ASCII 10) characters. Keys are
+strings. Table entries are defined by specifying a key and a value
+separated by any combination of space (` ` ASCII 32) and tab (\t`
+ASCII 9) characters. Keys are unique with a table. If a key appears
+more than once in a table definition the last value is the only one
+retained by the table.
 
 Example:
 
@@ -88,12 +152,12 @@ contact {
 }
 ----
 
-An additional syntax is defined for dictionary items where multiple
-keys precede the node. This syntax is only allowed within a
-dictionary node and has the effect of recursively defining implicit
-nested dictionary nodes with the initial keys. The final key and
-the node are used to create an entry within the most deeply nested
-dictionary. Using this syntax the above example can be written as:
+An additional syntax is defined for table entries where multiple keys
+precede the value. This syntax is only permitted within a table value
+and has the effect of recursively defining implicit nested table
+values with the initial keys. The final key and the value are used to
+create an entry within the most deeply nested table value. Using this
+syntax the above example can be written as:
 
 [source]
 ----
@@ -115,126 +179,71 @@ contact email home "john@home.domain"
 
 ==== Comment
 
-The hash character indicates a comment which runs up to the next
-CR. Comments are treated as whitespace (ie. ignored).
-
-==== Root Node
-
-The type of the root node is determined as follows:
-
-- If the document contains a single string node the root node is
-assumed to be a string.
-
-- If the document contains a series of comma or CR separated nodes the
-root node is assumed to be an array. A single string followed by a
-comma is assumed to be an array. A single comma is assumed to be an
-empty array.
-
-- Otherwise the root node is assumed to be a (possibly empty)
-dictionary.
+The hash (`#` ASCII 35) character indicates a comment which runs up to the next
+CR (`\n` ASCII 10).
 
 === Interpolation
 
-Strings are interpolated: any occurrence of ${expr} within a string
-will be replaced by an expansion based on expr. There are currently
-three types of expression that can be expanded. These are
-differentiated by one of the expansion prefixes; node, env or
-file. Expansion occurs just once. If an expression expands to
-${expr1}, expr1 will not be further expanded. Expressions can refer
-to other nodes containing other expansions as long as this doesn't
-result in cyclic references.
+Values are interpolated when a NON document is parsed.
 
-If the string node being expanded comprises just the expansion
-(ie. "${expr}") then the node itself is replaced by the
-expansion. In this way whole branches can be grafted into the
-document tree.
+==== Arithmetic interpolation
 
-If the string node being expanded contains other data beside the
-expansion (eg. "/home/${expr}") the expansions are substituted into
-the original string node. It is not an error if the expansion is not
-a string node but the expanded value is implementation defined.
-
-==== Node Expansion
-
-Node expansions are defined using the ${node:path} syntax. The path
-is a dot separated list of keys specifying the node, within the
-current document, to use for the expansion. Keys used in paths are
-limited to comprising alphanumeric and '_' characters.
-
-Examples:
+Simple arithmetic is supported with the binary operators `-`, `+`,
+`*`, `/`, `\`, `%` and `^`. Binary operators must appear between to
+values and must be surrounded by one or more space (ASCII 32) or tab
+(ASCII 9) characters. The operators correspond respectively with the
+functions `subtract()`, `add()`, `multiply()`, `divide()`, `intdiv()`,
+`modulus()` and `power()` described below.
 
 [source]
 ----
-name Beryl
-birthday "May 4th"
-likes "flying kites"
-bio "${node:name}'s birthday is ${node:birthday}. ${node:name} likes ${node:likes}."
-----
-is equivalent to:
-[source]
-----
-name Beryl
-birthday "May 4th"
-likes "flying kites"
-bio "Beryl's birthday is May 4th. Beryl likes flying kites."
+port 8000 + 80 # port "8080"
+port 8000+80 # port "8000+80", probably not intentional!
 ----
 
-[source]
-----
-auth passwd {
-    name user
-    pass secret
-}
-mail1 login "${node:auth.passwd}"
-mail1 use_tls yes
-mail2 login "${node:auth.passwd}"
-mail2 use_tls no
-----
-is equivalent to:
-[source]
-----
-auth passwd {
-    name user
-    pass secret
-}
-mail1 {
-    login {
-        name user
-        pass secret
-    }
-    use_tls yes
-}
-mail2 {
-    login {
-        name user
-        pass secret
-    }
-    use_tls no
-}
-----
+==== Template interpolation
 
-==== Environment expansion
+Template values can be defined with the `let()` construct and reused
+later on in the document. Template values may or may not accept
+arguments which will affect their expansion.
 
-Environment expansions are defined using the ${env:var} syntax.
+Within a template, arguments can be extracted using the `arg(n)`
+construct where `n` is the zero-based argument index.
 
-Environment expansions use the environment variable, var, as the
-expanded value. This is always a string and, if the environment
-variable is not set, will be expanded to the empty string "".
-
-Example:
+Templates are applied by using the `apply()` construct. Templates
+without arguments can be applied using a special `$name` construct
+which is syntactic sugar for `apply(name)`.
 
 [source]
 ----
-path "${env:HOME}"
+let(base_port, 8000)
+let(port, $base_port + arg(0))
+
+port1 apply(port(80)) # port 8080
+port2 apply(port(81)) # port 8081
+port3 $base_port + 82 #port 8082
 ----
 
-==== File expansion
+==== Functions
 
-File expansions are defined using the ${file:filename} syntax.
+NON uses the `name(args)` construct for functions where name is a bare
+string and args is a comma separated list of zero or more arguments
+each of which is a valid NON value. The correct number of arguments
+will vary depending on the function.
 
-The file is loaded and fully parsed into a NON node. This node is
-then used as the expanded value.
+A NON parser supports at least the following basic functions:
 
-The file is parsed as a separate unit and so any expansions in the
-file are resolved independently. This means expansions in the file
-cannot refer to nodes in the document being interpolated.
+[options="header"]
+|===
+|Function|Result
+|`add(a, b)` |a + b
+|`subtract(a, b)` |a - b
+|`multiply(a, b)` |a × b
+|`divide(a, b)` |a ÷ b
+|`intdiv(a, b)` |a ÷ b, a and b are integers, result rounded towards zero
+|`modulus(a, b)` |remainder of a ÷ b, a and b are integers
+|`power(a, b)` |a^b^
+|===
+
+A parser may also permit user defined functions to be registered prior
+to parsing.
