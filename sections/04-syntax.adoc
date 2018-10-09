@@ -31,7 +31,7 @@ string value. The special characters are:
 |Character|ASCII|Meaning
 
 |SPC  |32  |Separates keys and values in a table and surrounds infix operators
-|TAB  |9   |Separates keys and values in a table and surrounds infox operators
+|TAB  |9   |Separates keys and values in a table and surrounds infix operators
 |`(`  |40  |Marks the start of the parameter list for interpolation functions
 |`)`  |41  |Marks the end of the parameter list for interpolation functions
 |`{`  |123 |Marks the start of a table value
@@ -43,7 +43,7 @@ string value. The special characters are:
 |`$`  |36  |Marks a template application without parameters
 |CR   |10  |Separates entries within tables, lists and parameter lists
 |`,`  |44  |Separates entries within tables, lists and parameter lists
-|`\`  |92  |Indicates an exscape sequence
+|`\`  |92  |Indicates an escape sequence
 |===
 
 ==== String
@@ -107,7 +107,7 @@ Money
 ==== List
 
 A list is an ordered set of values. Lists are enclosed in square
-braces (`[]` ASCCI 91/93). Within the braces are zero or more values
+braces (`[]` ASCII 91/93). Within the braces are zero or more values
 separated by one or more comma (`,` ASCII 44) or newline (ASCII 10)
 characters. Values are numbered, starting at zero. Numbers are
 assigned to each value in the order in which they are defined.
