@@ -1,7 +1,7 @@
 MIME-Version: 1.0
-Content-Type: multipart/related; boundary="----=_NextPart_f6224fea.5222.4dbc"
+Content-Type: multipart/related; boundary="----=_NextPart_a5e5219f.32ca.4f9c"
 
-------=_NextPart_f6224fea.5222.4dbc
+------=_NextPart_a5e5219f.32ca.4f9c
 Content-Location: file:///C:/Doc/rsd-nereon-configuration-syntax.htm
 Content-Type: text/html; charset="utf-8"
 
@@ -2005,22 +2005,22 @@ documentation.</span><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-si
 <p class="MsoToc1"><span lang="EN-GB" xml:lang="EN-GB"><span style="mso-element:field-begin"></span><span style="mso-spacerun:yes">&#xA0;</span>TOC
   \o "1-2" \h \z \u <span style="mso-element:field-separator"></span></span>
 <span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc13615061">1. Scope<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc884207679">1. Scope<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span>
 </span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc13615061 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc884207679 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
 
 <p class="MsoToc1">
   <span class="MsoHyperlink">
     <span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc813637999">2. Normative references<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc387895679">2. Normative references<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span>
 </span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc813637999 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc387895679 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span>
   </span>
@@ -2029,11 +2029,11 @@ documentation.</span><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-si
 <p class="MsoToc1">
   <span class="MsoHyperlink">
     <span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc173945177">3. Terms, definitions, symbols and abbreviated terms<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc25978155">3. Terms, definitions, symbols and abbreviated terms<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span>
 </span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc173945177 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc25978155 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span>
   </span>
@@ -2042,11 +2042,11 @@ documentation.</span><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-si
 <p class="MsoToc2">
   <span class="MsoHyperlink">
     <span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc995316691">3.1. Terms and definitions<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc847338338">3.1. Terms and definitions<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span>
 </span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc995316691 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc847338338 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span>
   </span>
@@ -2055,11 +2055,11 @@ documentation.</span><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-si
 <p class="MsoToc2">
   <span class="MsoHyperlink">
     <span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc121206192">3.2. Symbols and abbreviated terms<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc682428938">3.2. Symbols and abbreviated terms<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span>
 </span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc121206192 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc682428938 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span>
   </span>
@@ -2068,11 +2068,11 @@ documentation.</span><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-si
 <p class="MsoToc1">
   <span class="MsoHyperlink">
     <span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc401617620">4. Nereon Configuration and Schema Syntax<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc48696694">4. Nereon Configuration and Schema Syntax<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span>
 </span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc401617620 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc48696694 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span>
   </span>
@@ -2081,11 +2081,11 @@ documentation.</span><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-si
 <p class="MsoToc2">
   <span class="MsoHyperlink">
     <span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc96127679">4.1. Document Structure<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc572077462">4.1. Document Structure<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span>
 </span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc96127679 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc572077462 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span>
   </span>
@@ -2094,11 +2094,11 @@ documentation.</span><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-si
 <p class="MsoToc2">
   <span class="MsoHyperlink">
     <span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc378089287">4.2. Interpolation<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc641577794">4.2. Interpolation<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span>
 </span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc378089287 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc641577794 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span>
   </span>
@@ -2107,11 +2107,11 @@ documentation.</span><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-si
 <p class="MsoToc1">
   <span class="MsoHyperlink">
     <span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
-<a href="#_Toc945169592">Bibliography<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<a href="#_Toc408052275">Bibliography<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-tab-count:1 dotted">. </span>
 </span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
 <span style="mso-element:field-begin"></span></span>
-<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc945169592 \h </span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc408052275 \h </span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
   <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span>
   </span>
@@ -2134,9 +2134,9 @@ documentation.</span><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-si
       <p class="zzSTDTitle1">Configuration management&#x2009;&#x2014;&#x2009;Nereon configuration model&#x2009;&#x2014;&#x2009;Object configuration and schema syntax</p>
       <div><a name="scope" id="scope"></a>
         <h1>1.<span style="mso-tab-count:1">&#xA0; </span>Scope</h1>
-        <p class="MsoNormal"><a name="_44421890-957c-41c7-95a2-e6d01dc6117c" id="_44421890-957c-41c7-95a2-e6d01dc6117c"></a>This document defines the Nereon Object Configuration Syntax (NOC) and
+        <p class="MsoNormal"><a name="_7ae3cae0-fc84-452e-846e-792a9fe6c9a3" id="_7ae3cae0-fc84-452e-846e-792a9fe6c9a3"></a>This document defines the Nereon Object Configuration Syntax (NOC) and
 Nereon Object Configuration Schema Syntax (NOS).</p>
-        <p class="MsoNormal"><a name="_a4adda0d-eb38-4f06-b1d2-92a1fb2b7860" id="_a4adda0d-eb38-4f06-b1d2-92a1fb2b7860"></a>(TODO.)</p>
+        <p class="MsoNormal"><a name="_628ff083-bb77-47c7-9c2d-b318283834fa" id="_628ff083-bb77-47c7-9c2d-b318283834fa"></a>(TODO.)</p>
       </div>
       <div>
         <h1>2.<span style="mso-tab-count:1">&#xA0; </span>Normative references</h1>
@@ -2146,42 +2146,42 @@ Nereon Object Configuration Schema Syntax (NOS).</p>
     the following terms and definitions apply.</p>
 <div><a name="_terms_and_definitions" id="_terms_and_definitions"></a><h2>3.1. Terms and definitions</h2><p class="TermNum"><a name="_user" id="_user"></a>3.1.1&#xA0;<p class="Terms" style="text-align:left;">user</p></p>
   
-  <p class="MsoNormal"><a name="_0d7aebba-92cc-4cc0-9321-2ba5d7081246" id="_0d7aebba-92cc-4cc0-9321-2ba5d7081246"></a>person that utilizes a service</p>
+  <p class="MsoNormal"><a name="_90464a35-1d91-4cef-9e70-26220698e30a" id="_90464a35-1d91-4cef-9e70-26220698e30a"></a>person that utilizes a service</p>
 
 <p class="TermNum"><a name="_access_control" id="_access_control"></a>3.1.2&#xA0;<p class="Terms" style="text-align:left;">access control</p></p>
   
-  <p class="MsoNormal"><a name="_27604c56-dcc7-484a-ad41-2588f27fe26d" id="_27604c56-dcc7-484a-ad41-2588f27fe26d"></a>TODO.</p>
+  <p class="MsoNormal"><a name="_08d296a2-2486-4e87-8742-ad79f103b7c3" id="_08d296a2-2486-4e87-8742-ad79f103b7c3"></a>TODO.</p>
 
 <p class="TermNum"><a name="_author" id="_author"></a>3.1.3&#xA0;<p class="Terms" style="text-align:left;">author</p></p>
   
-  <p class="MsoNormal"><a name="_05e40aff-1a88-4336-a328-84f34dff6daf" id="_05e40aff-1a88-4336-a328-84f34dff6daf"></a>TODO.</p>
+  <p class="MsoNormal"><a name="_680c9362-2177-4fe5-8242-4d072909146e" id="_680c9362-2177-4fe5-8242-4d072909146e"></a>TODO.</p>
 
 <p class="TermNum"><a name="_role" id="_role"></a>3.1.4&#xA0;<p class="Terms" style="text-align:left;">role</p></p>
   
-  <p class="MsoNormal"><a name="_e6f0eb7d-69fb-4b58-8563-ee92596120c8" id="_e6f0eb7d-69fb-4b58-8563-ee92596120c8"></a>TODO.</p>
+  <p class="MsoNormal"><a name="_c456c22b-a119-4157-b83c-1631badf039b" id="_c456c22b-a119-4157-b83c-1631badf039b"></a>TODO.</p>
 
 <p class="TermNum"><a name="_classification" id="_classification"></a>3.1.5&#xA0;<p class="Terms" style="text-align:left;">classification</p></p>
   
-  <p class="MsoNormal"><a name="_08a9481d-274b-4700-ba54-8e87c637e552" id="_08a9481d-274b-4700-ba54-8e87c637e552"></a>TODO.</p>
+  <p class="MsoNormal"><a name="_2c3df320-60c6-4f81-bb40-b398b33ee7b5" id="_2c3df320-60c6-4f81-bb40-b398b33ee7b5"></a>TODO.</p>
 
 <p class="TermNum"><a name="_classification_label" id="_classification_label"></a>3.1.6&#xA0;<p class="Terms" style="text-align:left;">classification label</p></p>
   
-  <p class="MsoNormal"><a name="_8d93b8c1-3531-4e48-a4df-a956f41350cb" id="_8d93b8c1-3531-4e48-a4df-a956f41350cb"></a>TODO.</p>
+  <p class="MsoNormal"><a name="_5be00b2b-01ea-41f3-8231-785ca303578e" id="_5be00b2b-01ea-41f3-8231-785ca303578e"></a>TODO.</p>
 
 <p class="TermNum"><a name="_content_addressable_storage" id="_content_addressable_storage"></a>3.1.7&#xA0;<p class="Terms" style="text-align:left;">content addressable storage</p></p>
   
-  <p class="MsoNormal"><a name="_22e88c42-082d-498d-b1b4-9cc804538a3a" id="_22e88c42-082d-498d-b1b4-9cc804538a3a"></a>TODO.</p>
+  <p class="MsoNormal"><a name="_05a59829-2d0d-4680-874a-7886b9be9fb9" id="_05a59829-2d0d-4680-874a-7886b9be9fb9"></a>TODO.</p>
 
-<p class="TermNum"><a name="_forward_secrecy" id="_forward_secrecy"></a>3.1.8&#xA0;<p class="Terms" style="text-align:left;">forward secrecy</p></p><p class="MsoNormal"><a name="_5c18efc1-7d7f-4f1c-a187-1f6a4df4a472" id="_5c18efc1-7d7f-4f1c-a187-1f6a4df4a472"></a>method such that user of revoked access is unable to access data
+<p class="TermNum"><a name="_forward_secrecy" id="_forward_secrecy"></a>3.1.8&#xA0;<p class="Terms" style="text-align:left;">forward secrecy</p></p><p class="MsoNormal"><a name="_bf84fc13-75f9-4250-bd7b-a57165a52e56" id="_bf84fc13-75f9-4250-bd7b-a57165a52e56"></a>method such that user of revoked access is unable to access data
 created after access revocation</p>
 <div class="Note"><p class="Note">Note 1 to entry: Refer to <a href="#RFC7525">section 6.3</a></p></div>
 <p class="TermNum"><a name="_public_key_infrastructure" id="_public_key_infrastructure"></a>3.1.9&#xA0;<p class="Terms" style="text-align:left;">public key infrastructure</p></p>
   <p class="AltTerms" style="text-align:left;">PKI</p>
 
-<p class="MsoNormal"><a name="_fb3b2544-8703-4fff-827e-03334cd29240" id="_fb3b2544-8703-4fff-827e-03334cd29240"></a>TODO.</p>
+<p class="MsoNormal"><a name="_5a4ce0e4-2d01-4849-b73c-80be9b34790f" id="_5a4ce0e4-2d01-4849-b73c-80be9b34790f"></a>TODO.</p>
 <p class="TermNum"><a name="_blockcipher" id="_blockcipher"></a>3.1.10&#xA0;<p class="Terms" style="text-align:left;">blockcipher</p></p>
   
-  <p class="MsoNormal"><a name="_258eb134-d19b-4edb-be7c-8662f240cbe6" id="_258eb134-d19b-4edb-be7c-8662f240cbe6"></a>encryption algorithm that encrypts a plaintext into an equivalent
+  <p class="MsoNormal"><a name="_9ac55552-1ba6-4687-8b3a-ee2fe142f1e0" id="_9ac55552-1ba6-4687-8b3a-ee2fe142f1e0"></a>encryption algorithm that encrypts a plaintext into an equivalent
 sized ciphertext, using an identical key for encryption and
 decryption</p>
 </div><div><a name="_symbols" id="_symbols"></a><h2>3.2. Symbols and abbreviated terms</h2>
@@ -2198,7 +2198,7 @@ decryption</p>
 </m:oMath>
 </m:oMathPara></span>
   </p></td><td valign="top">
-    <p class="MsoNormal"><a name="_27245aa8-8acb-47e9-81dd-bb8ddf5e1d1e" id="_27245aa8-8acb-47e9-81dd-bb8ddf5e1d1e"></a>Encryption of the message <span class="stem"><m:oMath>
+    <p class="MsoNormal"><a name="_8885ebf6-505d-4649-a30b-654e8cd4beab" id="_8885ebf6-505d-4649-a30b-654e8cd4beab"></a>Encryption of the message <span class="stem"><m:oMath>
   <m:r><m:t>m</m:t></m:r>
 </m:oMath>
 </span> using a key of an asymmetric keypair <span class="stem"><m:oMath>
@@ -2218,7 +2218,7 @@ decryption</p>
 </m:oMath>
 </m:oMathPara></span>
   </p></td><td valign="top">
-    <p class="MsoNormal"><a name="_6780553c-d739-4513-b550-923a7e388765" id="_6780553c-d739-4513-b550-923a7e388765"></a>Decryption of the message <span class="stem"><m:oMath>
+    <p class="MsoNormal"><a name="_161078c5-688a-4805-a14b-d74930f2ebe6" id="_161078c5-688a-4805-a14b-d74930f2ebe6"></a>Decryption of the message <span class="stem"><m:oMath>
   <m:r><m:t>m</m:t></m:r>
 </m:oMath>
 </span> using a key of an asymmetric keypair <span class="stem"><m:oMath>
@@ -2240,7 +2240,7 @@ decryption</p>
 </m:oMath>
 </m:oMathPara></span>
   </p></td><td valign="top">
-    <p class="MsoNormal"><a name="_e72dec81-b972-42ec-b908-4380b52c8bdd" id="_e72dec81-b972-42ec-b908-4380b52c8bdd"></a>Symmetric encryption, through the blockcipher <span class="stem"><m:oMath>
+    <p class="MsoNormal"><a name="_8b6b28fb-eeda-40fd-82a4-7b73adc62245" id="_8b6b28fb-eeda-40fd-82a4-7b73adc62245"></a>Symmetric encryption, through the blockcipher <span class="stem"><m:oMath>
   <m:r><m:t>BC</m:t></m:r>
   
 </m:oMath>
@@ -2267,7 +2267,7 @@ decryption</p>
 </m:oMath>
 </m:oMathPara></span>
   </p></td><td valign="top">
-    <p class="MsoNormal"><a name="_991119b2-e651-49d9-9886-efd15434d231" id="_991119b2-e651-49d9-9886-efd15434d231"></a>Symmetric decryption, through the blockcipher <span class="stem"><m:oMath>
+    <p class="MsoNormal"><a name="_0fe58eae-5db0-4d5c-8fa4-f5533259c04f" id="_0fe58eae-5db0-4d5c-8fa4-f5533259c04f"></a>Symmetric decryption, through the blockcipher <span class="stem"><m:oMath>
   <m:r><m:t>BC</m:t></m:r>
   
 </m:oMath>
@@ -2283,22 +2283,22 @@ decryption</p>
 </div></div>
       <div><a name="syntax" id="syntax"></a>
         <h1>4.<span style="mso-tab-count:1">&#xA0; </span>Nereon Configuration and Schema Syntax</h1>
-        <p class="MsoNormal"><a name="_156a52ea-ade3-41fa-92dd-99221568d161" id="_156a52ea-ade3-41fa-92dd-99221568d161"></a>Nereon configurations (NOC) and schemas (NOS) are described using
+        <p class="MsoNormal"><a name="_2b152c50-f002-4de5-9221-ed862b213d62" id="_2b152c50-f002-4de5-9221-ed862b213d62"></a>Nereon configurations (NOC) and schemas (NOS) are described using
 Nereon object notation (NON). NON is a structured configuration
 language influenced by JSON, UCL and HCL using a syntax influenced by
 traditional shell interfaces.</p>
-        <p class="MsoNormal"><a name="_afb9d292-4b8f-4c2a-91a9-4ed59bd46d97" id="_afb9d292-4b8f-4c2a-91a9-4ed59bd46d97"></a>NON templates can be defined to capture and reuse values and NON
+        <p class="MsoNormal"><a name="_c3a70840-2ba5-4cd8-a338-69ed6902bf4f" id="_c3a70840-2ba5-4cd8-a338-69ed6902bf4f"></a>NON templates can be defined to capture and reuse values and NON
 interpolation functions provide a mechanism for manipulating values
 when configuration is parsed.</p>
-        <div><a name="_document_structure" id="_document_structure"></a><h2>4.1. Document Structure</h2><p class="MsoNormal"><a name="_33add344-96b3-47f3-9f22-19c577321f33" id="_33add344-96b3-47f3-9f22-19c577321f33"></a>NON defines three types of value; table, list and string. A table is a
+        <div><a name="_document_structure" id="_document_structure"></a><h2>4.1. Document Structure</h2><p class="MsoNormal"><a name="_0d324df4-f091-4c18-b3af-3b88d3050865" id="_0d324df4-f091-4c18-b3af-3b88d3050865"></a>NON defines three types of value; table, list and string. A table is a
 list of named values where names are strings. A list is an ordered
 list of values. A string is a textual representation of data.</p>
-<p class="MsoNormal"><a name="_551e0fa1-eb38-42f7-8844-1936f25059e6" id="_551e0fa1-eb38-42f7-8844-1936f25059e6"></a>NON data MUST be utf8 encoded.</p>
-<p class="MsoNormal"><a name="_e88d211e-3a8c-4752-a747-1b266c71b10a" id="_e88d211e-3a8c-4752-a747-1b266c71b10a"></a>A NON document comprises a single NON table value.</p>
-<div><a name="_special_characters" id="_special_characters"></a><h3>4.1.1. Special Characters</h3><p class="MsoNormal"><a name="_2f32cfd7-a093-4896-8e32-ee941fd04ac1" id="_2f32cfd7-a093-4896-8e32-ee941fd04ac1"></a>There are a number of characters that have special meaning
+<p class="MsoNormal"><a name="_1c0a9a96-6a4a-49f4-863f-31177f87816f" id="_1c0a9a96-6a4a-49f4-863f-31177f87816f"></a>NON data MUST be utf8 encoded.</p>
+<p class="MsoNormal"><a name="_a937d9b5-f893-452a-b98e-2b0cd79639cd" id="_a937d9b5-f893-452a-b98e-2b0cd79639cd"></a>A NON document comprises a single NON table value.</p>
+<div><a name="_special_characters" id="_special_characters"></a><h3>4.1.1. Special Characters</h3><p class="MsoNormal"><a name="_80c1762e-0a90-4363-9a36-5d5149bf5791" id="_80c1762e-0a90-4363-9a36-5d5149bf5791"></a>There are a number of characters that have special meaning
 within a NON document. All other characters are considered part of a
 string value. The special characters are:</p>
-<p class="TableTitle" align="center">Table 1</p><table class="MsoISOTable" border="1" cellspacing="0" cellpadding="0"><a name="_f2b836a4-7b07-4dd1-b08d-59d69bd26a89" id="_f2b836a4-7b07-4dd1-b08d-59d69bd26a89"></a><thead><tr><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Character</th><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">ASCII</th><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Meaning</th></tr></thead><tbody><tr><td align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">SPC</td><td align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">32</td><td align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Separates keys and values in a table and surrounds infix operators</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">TAB</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">9</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Separates keys and values in a table and surrounds infix operators</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">
+<p class="TableTitle" align="center">Table 1</p><table class="MsoISOTable" border="1" cellspacing="0" cellpadding="0"><a name="_643b9bdd-5310-4b18-be76-34b992f6cde3" id="_643b9bdd-5310-4b18-be76-34b992f6cde3"></a><thead><tr><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Character</th><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">ASCII</th><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Meaning</th></tr></thead><tbody><tr><td align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">SPC</td><td align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">32</td><td align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Separates keys and values in a table and surrounds infix operators</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">TAB</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">9</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Separates keys and values in a table and surrounds infix operators</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">
         <tt>(</tt>
       </td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">40</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Marks the start of the parameter list for interpolation functions</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">
         <tt>)</tt>
@@ -2321,11 +2321,11 @@ string value. The special characters are:</p>
       </td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">44</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Separates entries within tables, lists and parameter lists</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">
         <tt>\</tt>
       </td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">92</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Indicates an escape sequence</td></tr></tbody></table></div>
-<div><a name="_string" id="_string"></a><h3>4.1.2. String</h3><p class="MsoNormal"><a name="_1be4203f-9942-4c5d-a5c9-f40b0e830f7f" id="_1be4203f-9942-4c5d-a5c9-f40b0e830f7f"></a>Strings can be either bare or quoted. A bare string comprises one or
+<div><a name="_string" id="_string"></a><h3>4.1.2. String</h3><p class="MsoNormal"><a name="_012642a3-da23-4188-9ab2-6b7063e5e1a4" id="_012642a3-da23-4188-9ab2-6b7063e5e1a4"></a>Strings can be either bare or quoted. A bare string comprises one or
 more characters not listed in the 'Special Characters' section above.</p>
-<p class="MsoNormal"><a name="_9c4e15f4-b926-4a52-8485-4c17aa67a552" id="_9c4e15f4-b926-4a52-8485-4c17aa67a552"></a>The following Special characters can be included within a bare string
+<p class="MsoNormal"><a name="_aafbc414-5a18-4817-94ca-7352cebbddcc" id="_aafbc414-5a18-4817-94ca-7352cebbddcc"></a>The following Special characters can be included within a bare string
 if they are escaped with the backslash (<tt>\</tt> ASCII 92) character.</p>
-<p class="TableTitle" align="center">Table 2</p><table class="MsoISOTable" border="1" cellspacing="0" cellpadding="0"><a name="_4c8713bc-fb51-4eed-80e4-b8d3197ea25b" id="_4c8713bc-fb51-4eed-80e4-b8d3197ea25b"></a><thead><tr><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Sequence</th><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Meaning</th><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">ASCII</th></tr></thead><tbody><tr><td align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">
+<p class="TableTitle" align="center">Table 2</p><table class="MsoISOTable" border="1" cellspacing="0" cellpadding="0"><a name="_d785ed8c-d5e7-4450-b89c-92ef149465ef" id="_d785ed8c-d5e7-4450-b89c-92ef149465ef"></a><thead><tr><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Sequence</th><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Meaning</th><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">ASCII</th></tr></thead><tbody><tr><td align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">
         <tt>\(</tt>
       </td><td align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Open brace</td><td align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">40</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">
         <tt>\)</tt>
@@ -2344,24 +2344,24 @@ if they are escaped with the backslash (<tt>\</tt> ASCII 92) character.</p>
       </td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Dollar sign</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">35</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">
         <tt>\,</tt>
       </td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Comma</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">44</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">`\ `</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Space</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">32</td></tr></tbody></table>
-<p class="MsoNormal"><a name="_460e45e6-d7bb-48b6-9da2-426e80b35b92" id="_460e45e6-d7bb-48b6-9da2-426e80b35b92"></a>Quoted strings are enclosed in double quotation marks (<tt>"</tt> ASCII
+<p class="MsoNormal"><a name="_05436645-fe70-43a4-8d32-9cb8191c854b" id="_05436645-fe70-43a4-8d32-9cb8191c854b"></a>Quoted strings are enclosed in double quotation marks (<tt>"</tt> ASCII
 34) and may contain any of the <tt>Special Characters</tt> above with the
 exception of <tt>\</tt> (ASCII 92) and <tt>"</tt> (ASCII 34). <tt>\</tt> and <tt>"</tt> must
 always be escaped.</p>
-<p class="MsoNormal"><a name="_f5f9c731-a6bd-4cbb-bac3-97a8c5bb468c" id="_f5f9c731-a6bd-4cbb-bac3-97a8c5bb468c"></a>The following escape sequences are recognised in both bare and quoted
+<p class="MsoNormal"><a name="_baa879d8-b6b9-49f1-ac1a-4331da87e4ec" id="_baa879d8-b6b9-49f1-ac1a-4331da87e4ec"></a>The following escape sequences are recognised in both bare and quoted
 strings:</p>
-<p class="TableTitle" align="center">Table 3</p><table class="MsoISOTable" border="1" cellspacing="0" cellpadding="0"><a name="_2b40108a-d23a-470e-be18-35d43eb4dbd8" id="_2b40108a-d23a-470e-be18-35d43eb4dbd8"></a><thead><tr><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Escape Sequence</th><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">ASCII</th><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Character represented</th></tr></thead><tbody><tr><td align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">\n</td><td align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">10</td><td align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Newline (Line Feed)</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">\r</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">13</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Carriage Return</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">\t</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">9</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Horizontal Tab</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">\\</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">92</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Backslash</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">\'</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">39</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Single quotation mark</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">\"</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">34</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Double quotation mark</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">\0nn</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">any</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">The byte whose numerical value is given by 0nn interpreted as an octal number</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">\xhh</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">any</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">The byte whose numerical value is given by hh interpreted as a hexadecimal number</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">\Uhhhhhhhh</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">none</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Unicode code point where h is a hexadecimal digit</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">\uhhhh</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">none</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Unicode code point below 10000 hexadecimal</td></tr></tbody></table>
-<p class="MsoNormal"><a name="_3fc9e3b5-d8ff-45a4-898b-ee551df95152" id="_3fc9e3b5-d8ff-45a4-898b-ee551df95152"></a>Multi-line strings are permitted as long as they are quoted.</p>
-<p class="MsoNormal"><a name="_9423a40a-8f7d-4a58-81b9-2479a28a341b" id="_9423a40a-8f7d-4a58-81b9-2479a28a341b"></a>Examples:</p>
-<p class="Sourcecode"><a name="_8b041bc0-3f34-48e1-b85c-3bcda651e22b" id="_8b041bc0-3f34-48e1-b85c-3bcda651e22b"></a>"The&#xA0;Rachel&#xA0;Papers"<br/>Success<br/>Money<br/>"Time's&#xA0;Arrow"</p></div>
-<div><a name="_list" id="_list"></a><h3>4.1.3. List</h3><p class="MsoNormal"><a name="_fc94a10e-b265-4eba-904a-c5d0b10a2a9d" id="_fc94a10e-b265-4eba-904a-c5d0b10a2a9d"></a>A list is an ordered set of values. Lists are enclosed in square
+<p class="TableTitle" align="center">Table 3</p><table class="MsoISOTable" border="1" cellspacing="0" cellpadding="0"><a name="_b486bc5e-186a-48c3-bd2d-209a6edb9f83" id="_b486bc5e-186a-48c3-bd2d-209a6edb9f83"></a><thead><tr><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Escape Sequence</th><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">ASCII</th><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Character represented</th></tr></thead><tbody><tr><td align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">\n</td><td align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">10</td><td align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Newline (Line Feed)</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">\r</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">13</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Carriage Return</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">\t</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">9</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Horizontal Tab</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">\\</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">92</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Backslash</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">\'</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">39</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Single quotation mark</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">\"</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">34</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Double quotation mark</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">\0nn</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">any</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">The byte whose numerical value is given by 0nn interpreted as an octal number</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">\xhh</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">any</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">The byte whose numerical value is given by hh interpreted as a hexadecimal number</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">\Uhhhhhhhh</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">none</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">Unicode code point where h is a hexadecimal digit</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">\uhhhh</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">none</td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Unicode code point below 10000 hexadecimal</td></tr></tbody></table>
+<p class="MsoNormal"><a name="_a2b2d881-1e3c-490b-9b45-c224dd91b09e" id="_a2b2d881-1e3c-490b-9b45-c224dd91b09e"></a>Multi-line strings are permitted as long as they are quoted.</p>
+<p class="MsoNormal"><a name="_32c45cdb-72cd-4dec-b1cd-37c27e565228" id="_32c45cdb-72cd-4dec-b1cd-37c27e565228"></a>Examples:</p>
+<p class="Sourcecode"><a name="_57eccd8f-3742-4450-8541-60792e49ac2c" id="_57eccd8f-3742-4450-8541-60792e49ac2c"></a>"The&#xA0;Rachel&#xA0;Papers"<br/>Success<br/>Money<br/>"Time's&#xA0;Arrow"</p></div>
+<div><a name="_list" id="_list"></a><h3>4.1.3. List</h3><p class="MsoNormal"><a name="_3671c1c1-ecd4-4131-8d50-54c251058e3f" id="_3671c1c1-ecd4-4131-8d50-54c251058e3f"></a>A list is an ordered set of values. Lists are enclosed in square
 braces (<tt>[]</tt> ASCII 91/93). Within the braces are zero or more values
 separated by one or more comma (<tt>,</tt> ASCII 44) or newline (ASCII 10)
 characters. Values are numbered, starting at zero. Numbers are
 assigned to each value in the order in which they are defined.</p>
-<p class="MsoNormal"><a name="_4dff7a23-06a0-4a23-9e17-b8e991d7f448" id="_4dff7a23-06a0-4a23-9e17-b8e991d7f448"></a>Example:</p>
-<p class="Sourcecode"><a name="_6553e6ca-a0c0-4f93-8166-10fe722cdb34" id="_6553e6ca-a0c0-4f93-8166-10fe722cdb34"></a>[<br/>&#xA0;&#xA0;&#xA0;&#xA0;Aglovale,&#xA0;Breunor,&#xA0;Claudin<br/>&#xA0;&#xA0;&#xA0;&#xA0;Calogrenant,&#xA0;Dinadan,&#xA0;"Elyan&#xA0;the&#xA0;White"<br/><br/>&#xA0;&#xA0;&#xA0;&#xA0;Erec,&#xA0;Galeschin,&#xA0;Gornemant,<br/>&#xA0;&#xA0;&#xA0;&#xA0;"Hector&#xA0;de&#xA0;Maris",&#xA0;Lucan,<br/>&#xA0;&#xA0;&#xA0;&#xA0;"Meliant&#xA0;de&#xA0;Lis",&#xA0;Morholt<br/>&#xA0;&#xA0;&#xA0;&#xA0;Safir,&#xA0;Segwarides,&#xA0;Tor<br/>]</p></div>
-<div><a name="_table" id="_table"></a><h3>4.1.4. Table</h3><p class="MsoNormal"><a name="_86ffe938-fdbd-4fdb-8cbc-6db85b7b2ec4" id="_86ffe938-fdbd-4fdb-8cbc-6db85b7b2ec4"></a>A table is an unordered set of key and value pairs. A table is
+<p class="MsoNormal"><a name="_2de61204-32ea-4d14-a205-97094fed3554" id="_2de61204-32ea-4d14-a205-97094fed3554"></a>Example:</p>
+<p class="Sourcecode"><a name="_04ad6e47-1234-4bbe-955e-d32b96462b65" id="_04ad6e47-1234-4bbe-955e-d32b96462b65"></a>[<br/>&#xA0;&#xA0;&#xA0;&#xA0;Aglovale,&#xA0;Breunor,&#xA0;Claudin<br/>&#xA0;&#xA0;&#xA0;&#xA0;Calogrenant,&#xA0;Dinadan,&#xA0;"Elyan&#xA0;the&#xA0;White"<br/><br/>&#xA0;&#xA0;&#xA0;&#xA0;Erec,&#xA0;Galeschin,&#xA0;Gornemant,<br/>&#xA0;&#xA0;&#xA0;&#xA0;"Hector&#xA0;de&#xA0;Maris",&#xA0;Lucan,<br/>&#xA0;&#xA0;&#xA0;&#xA0;"Meliant&#xA0;de&#xA0;Lis",&#xA0;Morholt<br/>&#xA0;&#xA0;&#xA0;&#xA0;Safir,&#xA0;Segwarides,&#xA0;Tor<br/>]</p></div>
+<div><a name="_table" id="_table"></a><h3>4.1.4. Table</h3><p class="MsoNormal"><a name="_811b1bb5-e1c7-4ed1-b4fa-7ee0099349d1" id="_811b1bb5-e1c7-4ed1-b4fa-7ee0099349d1"></a>A table is an unordered set of key and value pairs. A table is
 enclosed in curly braces (<tt>{}</tt> ASCII 123/125). Within the braces are
 zero or more key/value pairs. Pairs are separated by one or more comma
 (<tt>,</tt> ASCII 44) or newline (ASCII 10) characters. Keys are
@@ -2370,45 +2370,45 @@ separated by any combination of space (` ` ASCII 32) and tab (\t`
 ASCII 9) characters. Keys are unique with a table. If a key appears
 more than once in a table definition the last value is the only one
 retained by the table.</p>
-<p class="MsoNormal"><a name="_b42ab41a-cde9-4f1b-b8b1-8c3aa172bb97" id="_b42ab41a-cde9-4f1b-b8b1-8c3aa172bb97"></a>Example:</p>
-<p class="Sourcecode"><a name="_c255c7bf-97dd-4ced-86d3-1cfe89a991e5" id="_c255c7bf-97dd-4ced-86d3-1cfe89a991e5"></a>contact&#xA0;{<br/>&#xA0;&#xA0;&#xA0;&#xA0;name&#xA0;"John&#xA0;Doe"<br/>&#xA0;&#xA0;&#xA0;&#xA0;email&#xA0;{<br/>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;work&#xA0;"john.doe@work.domain"<br/>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;home&#xA0;"john@home.domain"<br/>&#xA0;&#xA0;&#xA0;&#xA0;}<br/>}</p>
-<p class="MsoNormal"><a name="_2506afaa-ebf4-4515-b9a1-f787afe201e8" id="_2506afaa-ebf4-4515-b9a1-f787afe201e8"></a>An additional syntax is defined for table entries where multiple keys
+<p class="MsoNormal"><a name="_bac24f8e-06ab-4a8e-a5ba-dab94825ad1e" id="_bac24f8e-06ab-4a8e-a5ba-dab94825ad1e"></a>Example:</p>
+<p class="Sourcecode"><a name="_158a0522-1de2-41f4-a3b3-58713ffec530" id="_158a0522-1de2-41f4-a3b3-58713ffec530"></a>contact&#xA0;{<br/>&#xA0;&#xA0;&#xA0;&#xA0;name&#xA0;"John&#xA0;Doe"<br/>&#xA0;&#xA0;&#xA0;&#xA0;email&#xA0;{<br/>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;work&#xA0;"john.doe@work.domain"<br/>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;home&#xA0;"john@home.domain"<br/>&#xA0;&#xA0;&#xA0;&#xA0;}<br/>}</p>
+<p class="MsoNormal"><a name="_111465c2-398e-41d6-98b1-4357eb946ead" id="_111465c2-398e-41d6-98b1-4357eb946ead"></a>An additional syntax is defined for table entries where multiple keys
 precede the value. This syntax is only permitted within a table value
 and has the effect of recursively defining implicit nested table
 values with the initial keys. The final key and the value are used to
 create an entry within the most deeply nested table value. Using this
 syntax the above example can be written as:</p>
-<p class="Sourcecode"><a name="_ce2a7eba-66ba-4f69-aafd-78e2a9e10a64" id="_ce2a7eba-66ba-4f69-aafd-78e2a9e10a64"></a>contact&#xA0;{<br/>&#xA0;&#xA0;&#xA0;&#xA0;name&#xA0;"John&#xA0;Doe"<br/>&#xA0;&#xA0;&#xA0;&#xA0;email&#xA0;work&#xA0;"john.doe@work.domain"<br/>&#xA0;&#xA0;&#xA0;&#xA0;email&#xA0;home&#xA0;"john@home.domain"<br/>}</p>
-<p class="MsoNormal"><a name="_41a6ff36-be9b-4145-81ce-8f8d242fcb61" id="_41a6ff36-be9b-4145-81ce-8f8d242fcb61"></a>or</p>
-<p class="Sourcecode"><a name="_e1752d1d-35e8-4fa2-be3b-640df88a7b7a" id="_e1752d1d-35e8-4fa2-be3b-640df88a7b7a"></a>contact&#xA0;name&#xA0;"John&#xA0;Doe"<br/>contact&#xA0;email&#xA0;work&#xA0;"john.doe@work.domain"<br/>contact&#xA0;email&#xA0;home&#xA0;"john@home.domain"</p></div>
+<p class="Sourcecode"><a name="_0de9306d-61c5-47ac-b063-80a05327a613" id="_0de9306d-61c5-47ac-b063-80a05327a613"></a>contact&#xA0;{<br/>&#xA0;&#xA0;&#xA0;&#xA0;name&#xA0;"John&#xA0;Doe"<br/>&#xA0;&#xA0;&#xA0;&#xA0;email&#xA0;work&#xA0;"john.doe@work.domain"<br/>&#xA0;&#xA0;&#xA0;&#xA0;email&#xA0;home&#xA0;"john@home.domain"<br/>}</p>
+<p class="MsoNormal"><a name="_0cbb1dae-17ea-4cc3-8730-7a96d88db37b" id="_0cbb1dae-17ea-4cc3-8730-7a96d88db37b"></a>or</p>
+<p class="Sourcecode"><a name="_38a03f48-2e1d-41ce-82e7-1fa3b22b40e0" id="_38a03f48-2e1d-41ce-82e7-1fa3b22b40e0"></a>contact&#xA0;name&#xA0;"John&#xA0;Doe"<br/>contact&#xA0;email&#xA0;work&#xA0;"john.doe@work.domain"<br/>contact&#xA0;email&#xA0;home&#xA0;"john@home.domain"</p></div>
 <div><a name="_comment" id="_comment"></a><h3>4.1.5. Comment</h3>
 
-  <p class="MsoNormal"><a name="_6d3be8ee-00de-44b9-abff-c0d61557cf68" id="_6d3be8ee-00de-44b9-abff-c0d61557cf68"></a>The hash (<tt>#</tt> ASCII 35) character indicates a comment which runs up to the next
+  <p class="MsoNormal"><a name="_f670695b-f6e6-4082-9071-e828ba6107b8" id="_f670695b-f6e6-4082-9071-e828ba6107b8"></a>The hash (<tt>#</tt> ASCII 35) character indicates a comment which runs up to the next
 CR (<tt>\n</tt> ASCII 10).</p>
 </div></div>
-        <div><a name="_interpolation" id="_interpolation"></a><h2>4.2. Interpolation</h2><p class="MsoNormal"><a name="_630c6b9e-ae3e-414a-8e53-92dcd6935b1f" id="_630c6b9e-ae3e-414a-8e53-92dcd6935b1f"></a>Values are interpolated when a NON document is parsed.</p>
-<div><a name="_arithmetic_interpolation" id="_arithmetic_interpolation"></a><h3>4.2.1. Arithmetic interpolation</h3><p class="MsoNormal"><a name="_62452ee2-3e9a-424e-906e-3109a051d1f4" id="_62452ee2-3e9a-424e-906e-3109a051d1f4"></a>Simple arithmetic is supported with the binary operators <tt>-</tt>, <tt>+</tt>,
+        <div><a name="_interpolation" id="_interpolation"></a><h2>4.2. Interpolation</h2><p class="MsoNormal"><a name="_e2d8a0ef-51ca-40d8-b95f-4d4f3298d47a" id="_e2d8a0ef-51ca-40d8-b95f-4d4f3298d47a"></a>Values are interpolated when a NON document is parsed.</p>
+<div><a name="_arithmetic_interpolation" id="_arithmetic_interpolation"></a><h3>4.2.1. Arithmetic interpolation</h3><p class="MsoNormal"><a name="_1388b1b3-e595-4db1-bbc6-e2ac0f179b4f" id="_1388b1b3-e595-4db1-bbc6-e2ac0f179b4f"></a>Simple arithmetic is supported with the binary operators <tt>-</tt>, <tt>+</tt>,
 <tt>*</tt>, <tt>/</tt>, <tt>\</tt>, <tt>%</tt> and <tt>^</tt>. Binary operators must appear between to
 values and must be surrounded by one or more space (ASCII 32) or tab
 (ASCII 9) characters. The operators correspond respectively with the
 functions <tt>subtract()</tt>, <tt>add()</tt>, <tt>multiply()</tt>, <tt>divide()</tt>, <tt>intdiv()</tt>,
 <tt>modulus()</tt> and <tt>power()</tt> described below.</p>
-<p class="Sourcecode"><a name="_ad156068-ebd2-4096-8993-13edc45fd615" id="_ad156068-ebd2-4096-8993-13edc45fd615"></a>port&#xA0;8000&#xA0;+&#xA0;80&#xA0;#&#xA0;port&#xA0;"8080"<br/>port&#xA0;8000+80&#xA0;#&#xA0;port&#xA0;"8000+80",&#xA0;probably&#xA0;not&#xA0;intentional!</p></div>
-<div><a name="_template_interpolation" id="_template_interpolation"></a><h3>4.2.2. Template interpolation</h3><p class="MsoNormal"><a name="_f5cf38f5-c379-4598-b49d-cbd35cf3c675" id="_f5cf38f5-c379-4598-b49d-cbd35cf3c675"></a>Template values can be defined with the <tt>let()</tt> construct and reused
+<p class="Sourcecode"><a name="_02df3603-e1d6-4757-b068-239bd1158e1e" id="_02df3603-e1d6-4757-b068-239bd1158e1e"></a>port&#xA0;8000&#xA0;+&#xA0;80&#xA0;#&#xA0;port&#xA0;"8080"<br/>port&#xA0;8000+80&#xA0;#&#xA0;port&#xA0;"8000+80",&#xA0;probably&#xA0;not&#xA0;intentional!</p></div>
+<div><a name="_template_interpolation" id="_template_interpolation"></a><h3>4.2.2. Template interpolation</h3><p class="MsoNormal"><a name="_ca4e89d0-81c1-48de-80f2-6963946da0ce" id="_ca4e89d0-81c1-48de-80f2-6963946da0ce"></a>Template values can be defined with the <tt>let()</tt> construct and reused
 later on in the document. Template values may or may not accept
 arguments which will affect their expansion.</p>
-<p class="MsoNormal"><a name="_67f79b62-c265-4e8a-8b7f-be06b35d579a" id="_67f79b62-c265-4e8a-8b7f-be06b35d579a"></a>Within a template, arguments can be extracted using the <tt>arg(n)</tt>
+<p class="MsoNormal"><a name="_658b1809-4bed-4946-aaea-59526aead893" id="_658b1809-4bed-4946-aaea-59526aead893"></a>Within a template, arguments can be extracted using the <tt>arg(n)</tt>
 construct where <tt>n</tt> is the zero-based argument index.</p>
-<p class="MsoNormal"><a name="_36dba622-524b-4b56-9c2f-9e98b91e5590" id="_36dba622-524b-4b56-9c2f-9e98b91e5590"></a>Templates are applied by using the <tt>apply()</tt> construct. Templates
+<p class="MsoNormal"><a name="_33a9170e-dd10-4ef0-83cd-c0a7eacbcfdf" id="_33a9170e-dd10-4ef0-83cd-c0a7eacbcfdf"></a>Templates are applied by using the <tt>apply()</tt> construct. Templates
 without arguments can be applied using a special <tt>$name</tt> construct
 which is syntactic sugar for <tt>apply(name)</tt>.</p>
-<p class="Sourcecode"><a name="_54cdd354-d1c2-45cb-bc44-511fdf85280b" id="_54cdd354-d1c2-45cb-bc44-511fdf85280b"></a>let(base_port,&#xA0;8000)<br/>let(port,&#xA0;$base_port&#xA0;+&#xA0;arg(0))<br/><br/>port1&#xA0;apply(port(80))&#xA0;#&#xA0;port&#xA0;8080<br/>port2&#xA0;apply(port(81))&#xA0;#&#xA0;port&#xA0;8081<br/>port3&#xA0;$base_port&#xA0;+&#xA0;82&#xA0;#port&#xA0;8082</p></div>
-<div><a name="_functions" id="_functions"></a><h3>4.2.3. Functions</h3><p class="MsoNormal"><a name="_f99d6a57-2588-48c0-a589-8c9380e01bd8" id="_f99d6a57-2588-48c0-a589-8c9380e01bd8"></a>NON uses the <tt>name(args)</tt> construct for functions where name is a bare
+<p class="Sourcecode"><a name="_5ec93dc8-2434-4255-a13a-f27c6e6c8946" id="_5ec93dc8-2434-4255-a13a-f27c6e6c8946"></a>let(base_port,&#xA0;8000)<br/>let(port,&#xA0;$base_port&#xA0;+&#xA0;arg(0))<br/><br/>port1&#xA0;apply(port(80))&#xA0;#&#xA0;port&#xA0;8080<br/>port2&#xA0;apply(port(81))&#xA0;#&#xA0;port&#xA0;8081<br/>port3&#xA0;$base_port&#xA0;+&#xA0;82&#xA0;#port&#xA0;8082</p></div>
+<div><a name="_functions" id="_functions"></a><h3>4.2.3. Functions</h3><p class="MsoNormal"><a name="_1ffa4d35-2cc7-4624-9601-4ca13e026411" id="_1ffa4d35-2cc7-4624-9601-4ca13e026411"></a>NON uses the <tt>name(args)</tt> construct for functions where name is a bare
 string and args is a comma separated list of zero or more arguments
 each of which is a valid NON value. The correct number of arguments
 will vary depending on the function.</p>
-<p class="MsoNormal"><a name="_1c7077ab-1d5b-4eae-9431-cd20923414ff" id="_1c7077ab-1d5b-4eae-9431-cd20923414ff"></a>A NON parser supports at least the following basic functions:</p>
-<p class="TableTitle" align="center">Table 4</p><table class="MsoISOTable" border="1" cellspacing="0" cellpadding="0"><a name="_6497c80e-be56-4fad-af12-ade7d55bc5d0" id="_6497c80e-be56-4fad-af12-ade7d55bc5d0"></a><thead><tr><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Function</th><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Result</th></tr></thead><tbody><tr><td align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">
+<p class="MsoNormal"><a name="_fa5249a0-83f3-4c23-99bc-114c66d57abb" id="_fa5249a0-83f3-4c23-99bc-114c66d57abb"></a>A NON parser supports at least the following basic functions:</p>
+<p class="TableTitle" align="center">Table 4</p><table class="MsoISOTable" border="1" cellspacing="0" cellpadding="0"><a name="_49d31d7b-429f-4ad6-a49e-065eb36a0c6a" id="_49d31d7b-429f-4ad6-a49e-065eb36a0c6a"></a><thead><tr><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Function</th><th align="left" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">Result</th></tr></thead><tbody><tr><td align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">
         <tt>add(a, b)</tt>
       </td><td align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">a + b</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">
         <tt>subtract(a, b)</tt>
@@ -2423,7 +2423,7 @@ will vary depending on the function.</p>
       </td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext 1.0pt;">remainder of a &#xF7; b, a and b are integers</td></tr><tr><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">
         <tt>power(a, b)</tt>
       </td><td align="left" style="border-top:none;mso-border-top-alt:none;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;">a<sup>b</sup></td></tr></tbody></table>
-<p class="MsoNormal"><a name="_5eae92b5-60fd-43fc-a459-0650bf3cf2d5" id="_5eae92b5-60fd-43fc-a459-0650bf3cf2d5"></a>A parser may also permit user defined functions to be registered prior
+<p class="MsoNormal"><a name="_b12d146a-9437-4ed8-b6ae-fd02b172680a" id="_b12d146a-9437-4ed8-b6ae-fd02b172680a"></a>A parser may also permit user defined functions to be registered prior
 to parsing.</p></div></div>
       </div>
       <br clear="all" style="mso-special-character:line-break;page-break-before:always"/>
@@ -2436,7 +2436,7 @@ to parsing.</p></div></div>
 </html>
 
 
-------=_NextPart_f6224fea.5222.4dbc
+------=_NextPart_a5e5219f.32ca.4f9c
 Content-Location: file:///C:/Doc/rsd-nereon-configuration-syntax_files/filelist.xml
 Content-Transfer-Encoding: base64
 Content-Type: application/xml
@@ -2446,7 +2446,7 @@ ICAgICAgIDxvOk1haW5GaWxlIEhSZWY9Ii4uL3JzZC1uZXJlb24tY29uZmlndXJhdGlvbi1zeW50
 YXguaHRtIi8+ICA8bzpGaWxlIEhSZWY9ImZpbGVsaXN0LnhtbCIvPgogIDxvOkZpbGUgSFJlZj0i
 aGVhZGVyLmh0bWwiLz4KPC94bWw+Cg==
 
-------=_NextPart_f6224fea.5222.4dbc
+------=_NextPart_a5e5219f.32ca.4f9c
 Content-Location: file:///C:/Doc/rsd-nereon-configuration-syntax_files/header.html
 Content-Transfer-Encoding: base64
 Content-Type: text/html charset="utf-8"
@@ -2624,4 +2624,4 @@ Pjwvc3Bhbj48L3NwYW4+PC9iPjwhW2VuZGlmXS0tPjxzcGFuDQpsYW5nPUVOLUdCIHN0eWxlPSdm
 b250LXNpemU6MTAuMHB0O21zby1iaWRpLWZvbnQtc2l6ZToxMS4wcHQnPjxvOnA+PC9vOnA+PC9z
 cGFuPjwvcD4NCg0KPC9kaXY+DQoNCjwvYm9keT4NCg0KPC9odG1sPg0K
 
-------=_NextPart_f6224fea.5222.4dbc--
+------=_NextPart_a5e5219f.32ca.4f9c--
