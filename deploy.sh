@@ -21,15 +21,15 @@ SHA=`git rev-parse --verify HEAD`
 # Clone the existing gh-pages for this repo into out/
 # Create a new empty branch if gh-pages doesn't exist yet (should only happen on first deply)
 git clone $REPO out
-cd out
+pushd out
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
-cd ..
+popd
 
 # Clean out existing contents
-rm -rf out || exit 0
+rm -rf out/* || exit 0
 
 # Adding back published/ dir.
-cp -a published out || exit 0
+cp -a published/* out/ || exit 0
 
 # Now let's go have some fun with the cloned repo
 cd out
@@ -41,6 +41,8 @@ if [[ -z $(git status -s) ]]; then
     echo "No changes to the output on this push; exiting."
     exit 0
 fi
+
+git status
 
 # Commit the "changes", i.e. the new version.
 # The delta will show diffs between new and old versions.
