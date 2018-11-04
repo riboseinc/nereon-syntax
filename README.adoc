@@ -1,53 +1,79 @@
-== Draft specification for the Nereon configuration syntax
+:repo-name: nereon-syntax
 
-=== Prerequisites / Installation
+== Ribose Specification: Nereon configuration syntax
 
-This specification is built using Metanorma, which relies on a Ruby
-workflow (version 2.4+).
+image:https://travis-ci.com/riboseinc/nereon-syntax.svg?branch=master["Build Status", link="https://travis-ci.com/riboseinc/nereon-syntax"]
 
-==== macOS
+== Introduction
 
-If you're on macOS, just run the
-https://github.com/riboseinc/metanorma-macos-setup[Metanorma install script]:
+This document describes the Nereon configuration syntax used as a method
+of input for the Nereon configuration model data structures.
+
+See https://github.com/riboseinc/nereon-models[Nereon configuration models]
+for more details.
+
+== Usage
+
+=== General
+
+This specification is built using https://www.metanorma.com[Metanorma].
+
+
+=== Fetching the document
 
 [source,sh]
 ----
-bash <(curl -s https://raw.githubusercontent.com/riboseinc/metanorma-macos-setup/master/metanorma-setup)
+git clone https://github.com/riboseinc/{repo-name}/
 ----
 
-==== Linux
 
-On Ubuntu 18.04 the Ruby prerequisites can be installed with:
+=== Installing Build Tools
+
+See the https://www.metanorma.com/overview/getting-started/[Metanorma Quick Start Guide]
+for more information.
+
+
+=== Running via Docker or locally
+
+If you have installed the build tools locally, and wish to run the
+locally-installed compilation tools, there is nothing further to set.
+
+If you don't want to deal with local dependencies, use the docker
+version by:
 
 [source,sh]
 ----
-sudo apt install git make ruby-bundler ruby-dev libxml2-dev libxslt-dev default-jre
-sudo gem install bundler
-sudo gem install nokogiri -v '1.8.4'
+export METANORMA_DOCKER=1
 ----
 
-The document can then be built with `make clean all`.
+The `Makefile` will automatically choose the proper command to
+execute.
 
-==== Other platforms
 
-Please install Ruby 2.4+, and just run `make clean all` which will
-install the required gems, and build the document automatically.
-
-=== Usage
-
-Run this to generate the RSD HTML.
+=== Building the document
 
 [source,sh]
 ----
 make clean all
 ----
 
-Which you can open with:
+The following outputs will be built:
+
+* RSD XML (https://github.com/riboseinc/metanorma-model-rsd) (`[filename].xml`)
+* HTML (`[filename].html`)
+* PDF (`[filename].pdf`)
+
+
+
+=== Iterating the document
 
 [source,sh]
 ----
-make open
-# or
-# open rsd-*.html
+make clean all
+open *.html
 ----
 
+
+== Deployment
+
+The built artifacts are deployed on GitHub pages.

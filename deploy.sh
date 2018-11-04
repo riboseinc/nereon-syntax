@@ -31,9 +31,6 @@ rm -rf out/* || exit 0
 # Adding back published/ dir.
 cp -r published/ out/ || exit 0
 
-# Re-generating.
-make && mv index.html out/index.html
-
 # Now let's go have some fun with the cloned repo
 cd out
 git config user.name "Travis CI"

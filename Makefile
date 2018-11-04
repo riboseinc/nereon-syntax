@@ -1,43 +1,31 @@
-MAIN_SRC := $(wildcard rsd-*.adoc)
-DOC      := $(patsubst %.adoc,%.doc,$(MAIN_SRC))
-XML      := $(patsubst %.adoc,%.xml,$(MAIN_SRC))
-HTML     := $(patsubst %.adoc,%.html,$(MAIN_SRC))
+SHELL := /bin/bash
+
 DOCTYPE  := rsd
+COMPILE_CMD_LOCAL := bundle exec metanorma -t $(DOCTYPE) -x xml,pdf,html,doc $$FILENAME
+COMPILE_CMD_DOCKER := docker run -v "$$(pwd)":/metanorma/ ribose/metanorma "metanorma -t $(DOCTYPE) -x xml,pdf,html,doc $$FILENAME"
 
-ALL_ADOC_SRC := *.adoc **/*.adoc
-SRC_doc      := $(ALL_ADOC_SRC)
-SRC_xml      := $(ALL_ADOC_SRC)
-SRC_html     := $(ALL_ADOC_SRC)
+ifdef METANORMA_DOCKER
+  COMPILE_CMD := echo "Compiling via docker..."; $(COMPILE_CMD_DOCKER)
+else
+  COMPILE_CMD := echo "Compiling locally"; $(COMPILE_CMD_LOCAL)
+endif
 
-MAIN_UML_SRC := 
-XMI          := $(patsubst %.uml,%.xmi,$(MAIN_UML_SRC))
-PNG          := $(patsubst %.uml,%.png,$(MAIN_UML_SRC))
-SVG          := $(patsubst %.uml,%.svg,$(MAIN_UML_SRC))
+SRC := $(wildcard ${DOCTYPE}-*.adoc)
+XML  := $(patsubst %.adoc,%.xml,$(SRC))
+HTML := $(patsubst %.adoc,%.html,$(SRC))
+DOC  := $(patsubst %.adoc,%.doc,$(SRC))
+PDF  := $(patsubst %.adoc,%.pdf,$(SRC))
 
-ALL_UML_SRC := *.uml
-SRC_xmi     := $(ALL_UML_SRC)
-SRC_png     := $(ALL_UML_SRC)
-SRC_svg     := $(ALL_UML_SRC)
-
-ALL_SRC := $(ALL_ADOC_SRC) $(ALL_UML_SRC)
-
-FORMATS := html doc xml xmi png svg
+FORMATS := html doc xml pdf
 
 _OUT_FILES := $(foreach FORMAT,$(FORMATS),$(shell echo $(FORMAT) | tr '[:lower:]' '[:upper:]'))
 OUT_FILES  := $(foreach F,$(_OUT_FILES),$($F))
 
-SHELL := /bin/bash
-
 all: $(OUT_FILES)
 
-%.png: %.uml
-	plantuml $^
-
-%.xmi: %.uml
-	plantuml -xmi:star $^
-
-%.xml %.html %.doc:	%.adoc | bundle
-	bundle exec metanorma -t $(DOCTYPE) -x html $^
+%.xml %.html %.doc %.pdf:	%.adoc | bundle
+	FILENAME=$^; \
+	${COMPILE_CMD}
 
 define FORMAT_TASKS
 OUT_FILES-$(FORMAT) := $($(shell echo $(FORMAT) | tr '[:lower:]' '[:upper:]'))
@@ -105,3 +93,12 @@ serve: $(NODE_BIN_DIR)/live-server revealjs-css reveal.js images
 
 watch-serve: $(NODE_BIN_DIR)/run-p
 	$< watch serve
+
+#
+# Deploy jobs
+#
+
+publish:
+	mkdir -p published
+	cp -a $(OUT_FILES) images published/
+	cp $(firstword $(HTML)) published/index.html
