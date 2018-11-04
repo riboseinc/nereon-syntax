@@ -4,6 +4,13 @@
 
 image:https://travis-ci.com/riboseinc/nereon-syntax.svg?branch=master["Build Status", link="https://travis-ci.com/riboseinc/nereon-syntax"]
 
+This document is available in its rendered forms here:
+
+* https://riboseinc.github.io/nereon-syntax/[Nereon configuration syntax (HTML)]
+* https://riboseinc.github.io/nereon-syntax/rsd-nereon-configuration-syntax.pdf[PDF]
+* https://riboseinc.github.io/nereon-syntax/rsd-nereon-configuration-syntax.xml[Metanorma XML]
+* https://riboseinc.github.io/nereon-syntax/rsd-nereon-configuration-syntax.rxl[Relaton XML (Bibliographic item)]
+
 == Introduction
 
 This document describes the Nereon configuration syntax used as a method
