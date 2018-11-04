@@ -1,6 +1,6 @@
 :repo-name: nereon-syntax
 
-== Ribose Specification: Nereon configuration syntax
+= Ribose Specification: Nereon configuration syntax
 
 image:https://travis-ci.com/riboseinc/nereon-syntax.svg?branch=master["Build Status", link="https://travis-ci.com/riboseinc/nereon-syntax"]
 
