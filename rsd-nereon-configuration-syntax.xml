@@ -34,120 +34,120 @@
   <revision-date>2018-10-08</revision-date>
   
 </version>
-<preface><foreword obligation="informative"><title>Foreword</title><p id="_f35a9422-33fa-4d24-84c9-a7eb414341ec">Ribose is the asymmetric security company.</p>
-<p id="_4ec71cc2-e14b-46c6-8d88-b8fe8cfed263">Ribose Group Inc. ("Ribose") is global developer of <em>asymmetric security</em> technologies across user-centric systems and applications.</p>
-<p id="_11b72b15-f2ae-4cdc-a91d-09ab058ca4d2">Ribose works closely with international organizations such as ISO, CalConnect and the Cloud Security Alliance.</p>
-<p id="_c90d5aed-f445-408f-92bc-656157ad242e">The procedures used to develop this document and those intended for its further maintenance are described in the Ribose Standardization Directives.</p>
-<p id="_b0e0292d-f385-4098-a9da-e89401e30904">In particular the different approval criteria needed for the different types of Ribose documents should be noted. This document was drafted in accordance with the
+<preface><foreword obligation="informative"><title>Foreword</title><p id="_0ab5a46d-a22a-41a0-a52e-e8c9829cfb11">Ribose is the asymmetric security company.</p>
+<p id="_c76fa407-cf5b-4100-a334-03f595a3c748">Ribose Group Inc. ("Ribose") is global developer of <em>asymmetric security</em> technologies across user-centric systems and applications.</p>
+<p id="_e3da5bf6-55f3-4487-8213-60e4b8e961d8">Ribose works closely with international organizations such as ISO, CalConnect and the Cloud Security Alliance.</p>
+<p id="_7a4bd507-6a06-495b-9faf-123b28157da1">The procedures used to develop this document and those intended for its further maintenance are described in the Ribose Standardization Directives.</p>
+<p id="_220b3858-752d-4218-bf39-c978b43c57f3">In particular the different approval criteria needed for the different types of Ribose documents should be noted. This document was drafted in accordance with the
 editorial rules of the Ribose Standardization Directives.</p>
-<p id="_4e3d7af8-8db8-4ae5-884e-1b9daba093a2">Attention is drawn to the possibility that some of the elements of this
+<p id="_8d31f367-fa71-4272-b498-9c53deb7ec4a">Attention is drawn to the possibility that some of the elements of this
 document may be the subject of patent rights. Ribose shall not be held responsible
 for identifying any or all such patent rights. Details of any patent rights
 identified during the development of the document will be in the Introduction.</p>
-<p id="_5aaa2489-f903-4bd0-8b60-c9e5fa626378">Any trade name used in this document is information given for the convenience
+<p id="_d443b4b8-5f69-4a64-a4a7-21962fb7c2eb">Any trade name used in this document is information given for the convenience
 of users and does not constitute an endorsement.</p>
-<p id="_60fb089c-f6bb-4389-9e79-db6f106e5243">This document was prepared by the Ribose Committee <em>Configuration management</em>.</p></foreword><introduction id="introduction" obligation="informative"><title>Introduction</title><p id="_b0f2d10a-59ef-4c35-b888-d8750e92c6e4">The Nereon project aims to unify and glue together cloud
+<p id="_908609c5-46f9-4720-839a-5358029253a1">This document was prepared by the Ribose Committee <em>Configuration management</em>.</p></foreword><introduction id="introduction" obligation="informative"><title>Introduction</title><p id="_d467e59e-17ea-4cf9-a207-7d4d7c9caa38">The Nereon project aims to unify and glue together cloud
 configuration management through the Nereon data models.</p>
-<p id="_13f5fa6a-4d15-41b2-bac5-3f9ecf311eb4">The Nereon Object Configuration syntax (NOC) and Nereon Object Configuration Schema syntax (NOS)
+<p id="_21222f32-5887-4635-b012-da277eb5bce5">The Nereon Object Configuration syntax (NOC) and Nereon Object Configuration Schema syntax (NOS)
 are methods used to express configuration settings in
 Nereon data models, and can also be used as interchangeable
 files.</p>
-<p id="_88cdfc7d-d04f-4070-b772-99d0ae9e0ba1">Nereon models: <link target="https://github.com/riboseinc/nereon-models"/></p>
-<p id="_ddf96996-b325-420f-80da-40558a8dd519">Nereon is a play on Nereus, the shapeshifting sea god of the Greeks, the eldest son of Pontus and Gaia. "Nereon" literally means "place of Nereus", representing the shape-shifting nature of configuration.</p></introduction></preface><sections>
+<p id="_7ec9fa4d-1c8e-454f-92f0-3cea55296c47">Nereon models: <link target="https://github.com/riboseinc/nereon-models"/></p>
+<p id="_79ab53a8-22d3-4a47-86a2-2c9bb4035002">Nereon is a play on Nereus, the shapeshifting sea god of the Greeks, the eldest son of Pontus and Gaia. "Nereon" literally means "place of Nereus", representing the shape-shifting nature of configuration.</p></introduction></preface><sections>
 
-<clause id="scope" obligation="normative"><title>Scope</title><p id="_71397607-50c6-42d1-8ccb-ddf9b01fecb1">This document defines the Nereon Object Configuration Syntax (NOC) and
+<clause id="scope" obligation="normative"><title>Scope</title><p id="_6db56fdd-dff7-49c0-9076-8a4e0759cf40">This document defines the Nereon Object Configuration Syntax (NOC) and
 Nereon Object Configuration Schema Syntax (NOS).</p>
-<p id="_6e23c365-36f8-402a-99bb-ec0328b5bbe4">(TODO.)</p></clause>
+<p id="_00273b09-51b4-4ef4-a170-7955eb19b466">(TODO.)</p></clause>
 
 <clause id="terms" obligation="normative"><title>Terms and definitions</title><terms id="_terms_and_definitions" obligation="normative"><title>Terms and definitions</title><term id="_user">
   <preferred>user</preferred>
-  <definition><p id="_75739b4d-b06d-4d90-96e4-2f507d65729d">person that utilizes a service</p></definition>
+  <definition><p id="_6e5a36cf-22f5-4a4d-90aa-8c6b9024fd08">person that utilizes a service</p></definition>
 </term>
 <term id="_access_control">
   <preferred>access control</preferred>
-  <definition><p id="_02f891a3-e338-4dae-a3c5-f7fb94bebac1">TODO.</p></definition>
+  <definition><p id="_fc78da84-0cbb-4832-bd02-5124ba3a10e0">TODO.</p></definition>
 </term>
 <term id="_author">
   <preferred>author</preferred>
-  <definition><p id="_94c33b94-42c2-4c1e-a0fd-d2740d680ca7">TODO.</p></definition>
+  <definition><p id="_4de19365-f580-4ab0-880a-9bc381e1b3e8">TODO.</p></definition>
 </term>
 <term id="_role">
   <preferred>role</preferred>
-  <definition><p id="_b260a7fd-513f-424e-9a63-dec078b24da5">TODO.</p></definition>
+  <definition><p id="_48bf2cb2-e954-494d-8cea-7fc70e327643">TODO.</p></definition>
 </term>
 <term id="_classification">
   <preferred>classification</preferred>
-  <definition><p id="_3cbe7e38-05f1-4f43-a67a-ff4aae5be755">TODO.</p></definition>
+  <definition><p id="_71cbf665-911a-4179-9640-f906de81ac36">TODO.</p></definition>
 </term>
 <term id="_classification_label">
   <preferred>classification label</preferred>
-  <definition><p id="_f3c1d70c-0006-4343-bda1-9d8ffbc80531">TODO.</p></definition>
+  <definition><p id="_3439a6bb-190c-488e-bde3-5eb4776c04d7">TODO.</p></definition>
 </term>
 <term id="_content_addressable_storage">
   <preferred>content addressable storage</preferred>
-  <definition><p id="_927ffacc-0eb0-42ba-b5af-86335f885f4e">TODO.</p></definition>
+  <definition><p id="_844de410-49b2-403a-b8d1-c9f95af457b8">TODO.</p></definition>
 </term>
-<term id="_forward_secrecy"><preferred>forward secrecy</preferred><definition><p id="_a6beddc6-6f61-4119-b454-bb49cc358db9">method such that user of revoked access is unable to access data
+<term id="_forward_secrecy"><preferred>forward secrecy</preferred><definition><p id="_0794f539-1486-4959-925e-72d3f3a0527f">method such that user of revoked access is unable to access data
 created after access revocation</p></definition>
-<termnote id="_d8288167-3eb2-43d4-9767-a83e76bc2921">
-  <p id="_43eff720-f075-4c77-91e9-05ff5655c6c1">Refer to <xref target="RFC7525">section 6.3</xref></p>
+<termnote id="_b471798e-5dd4-46a9-978a-d1d9ef9c7f0d">
+  <p id="_b1c20d26-22c0-488b-a469-ebe35c4d9b90">Refer to <xref target="RFC7525">section 6.3</xref></p>
 </termnote></term>
 <term id="_public_key_infrastructure"><preferred>public key infrastructure</preferred>
   <admitted>PKI</admitted>
 
-<definition><p id="_28b9fe34-c3a3-445c-9329-da2d0353271d">TODO.</p></definition></term>
+<definition><p id="_4bc3df82-58cd-4894-b3f8-acf6158cc958">TODO.</p></definition></term>
 <term id="_blockcipher">
   <preferred>blockcipher</preferred>
-  <definition><p id="_3531b23b-a62f-4366-9a67-fe53b6120bce">encryption algorithm that encrypts a plaintext into an equivalent
+  <definition><p id="_8de1eb7b-8c04-483c-bb16-9c077a1a3b12">encryption algorithm that encrypts a plaintext into an equivalent
 sized ciphertext, using an identical key for encryption and
 decryption</p></definition>
 </term></terms>
 <definitions id="_symbols">
-  <dl id="_ce32df58-e3d1-4548-9580-d8b15f4feea3">
+  <dl id="_ce8115c8-a43e-4b10-8d0a-3ba86bca2537">
   <dt>
     <stem type="AsciiMath">E(K, m)</stem>
   </dt>
   <dd>
-    <p id="_381a21d5-97d6-4c15-8365-e953e52549bf">Encryption of the message <stem type="AsciiMath">m</stem> using a key of an asymmetric keypair <stem type="AsciiMath">K</stem></p>
+    <p id="_de760c07-c7c7-4a7c-bb03-d504a228107b">Encryption of the message <stem type="AsciiMath">m</stem> using a key of an asymmetric keypair <stem type="AsciiMath">K</stem></p>
   </dd>
   <dt>
     <stem type="AsciiMath">D(K, m)</stem>
   </dt>
   <dd>
-    <p id="_ab16d259-ae48-453c-a2d7-1bd8d6d840fe">Decryption of the message <stem type="AsciiMath">m</stem> using a key of an asymmetric keypair <stem type="AsciiMath">K</stem></p>
+    <p id="_f0b72342-7ce1-42b0-8a37-ba4546dd671d">Decryption of the message <stem type="AsciiMath">m</stem> using a key of an asymmetric keypair <stem type="AsciiMath">K</stem></p>
   </dd>
   <dt>
     <stem type="AsciiMath">BCE(K, m)</stem>
   </dt>
   <dd>
-    <p id="_693fb4e3-92cd-4081-bd27-8a196218e4ea">Symmetric encryption, through the blockcipher <stem type="AsciiMath">BC</stem>, of the message
+    <p id="_c2c65ece-8b85-4794-83f4-e26027b6603f">Symmetric encryption, through the blockcipher <stem type="AsciiMath">BC</stem>, of the message
 <stem type="AsciiMath">m</stem> using the key <stem type="AsciiMath">K</stem></p>
   </dd>
   <dt>
     <stem type="AsciiMath">BCD(K, m)</stem>
   </dt>
   <dd>
-    <p id="_c5ff0550-bb9d-439e-ae3c-dac1b524c6f2">Symmetric decryption, through the blockcipher <stem type="AsciiMath">BC</stem>, of the message
+    <p id="_ccf1cda4-ba91-4d2a-abae-91a84158c8fa">Symmetric decryption, through the blockcipher <stem type="AsciiMath">BC</stem>, of the message
 <stem type="AsciiMath">m</stem> using the key <stem type="AsciiMath">K</stem></p>
   </dd>
 </dl>
 </definitions></clause>
-<clause id="syntax" obligation="normative"><title>Nereon Configuration and Schema Syntax</title><p id="_d433b01b-3371-4b82-a8ea-489a09366e7e">Nereon configurations (NOC) and schemas (NOS) are described using
+<clause id="syntax" obligation="normative"><title>Nereon Configuration and Schema Syntax</title><p id="_e3214605-f3af-42db-91d9-fb854efe4007">Nereon configurations (NOC) and schemas (NOS) are described using
 Nereon object notation (NON). NON is a structured configuration
 language influenced by JSON, UCL and HCL using a syntax influenced by
 traditional shell interfaces.</p>
-<p id="_c753c3a2-d658-4d19-8833-26f66580c572">NON templates can be defined to capture and reuse values and NON
+<p id="_4dd7d917-c7cb-4737-8991-b230d07ed996">NON templates can be defined to capture and reuse values and NON
 interpolation functions provide a mechanism for manipulating values
 when configuration is parsed.</p>
-<clause id="_document_structure" obligation="normative"><title>Document Structure</title><p id="_658c6f14-cced-4928-83d3-eaf8450674ed">NON defines three types of value; table, list and string. A table is a
+<clause id="_document_structure" obligation="normative"><title>Document Structure</title><p id="_2a93580b-704a-4d36-b57c-b7d08f96bf2e">NON defines three types of value; table, list and string. A table is a
 list of named values where names are strings. A list is an ordered
 list of values. A string is a textual representation of data.</p>
-<p id="_98bda010-ff63-4962-a392-898f696e51da">NON data MUST be utf8 encoded.</p>
-<p id="_47883cbd-1b9b-4667-b391-5ce35c8d93bc">A NON document comprises a single NON table value.</p>
-<clause id="_special_characters" obligation="normative"><title>Special Characters</title><p id="_bf42c8e0-7ae8-4c47-9bd9-7a059fd0485d">There are a number of characters that have special meaning
+<p id="_a682729f-67ad-4800-a7b4-f019ea545eb6">NON data MUST be utf8 encoded.</p>
+<p id="_d7bb610b-19a8-4e6d-9c81-d8262d873f74">A NON document comprises a single NON table value.</p>
+<clause id="_special_characters" obligation="normative"><title>Special Characters</title><p id="_62fa9e8c-5b1d-4294-acf2-d54e7bb602f0">There are a number of characters that have special meaning
 within a NON document. All other characters are considered part of a
 string value. The special characters are:</p>
-<table id="_7dec10c4-a792-40fc-b3de-9a61403b15fb">
+<table id="_7ff6449b-78a9-4074-863e-26a621234da9">
   <thead>
     <tr>
       <th align="left">Character</th>
@@ -250,11 +250,11 @@ string value. The special characters are:</p>
     </tr>
   </tbody>
 </table></clause>
-<clause id="_string" obligation="normative"><title>String</title><p id="_151bbbd5-7d0d-46d2-b6d2-3bd0c55038b1">Strings can be either bare or quoted. A bare string comprises one or
+<clause id="_string" obligation="normative"><title>String</title><p id="_a0666c22-a1d9-445e-a2a0-68621cbc86f7">Strings can be either bare or quoted. A bare string comprises one or
 more characters not listed in the 'Special Characters' section above.</p>
-<p id="_27722005-8229-461d-9583-8b0544e06be4">The following Special characters can be included within a bare string
+<p id="_a5370a83-3c9d-4558-bbeb-4855f48c5074">The following Special characters can be included within a bare string
 if they are escaped with the backslash (<tt>\</tt> ASCII 92) character.</p>
-<table id="_aa04d460-2f30-40bb-a8b7-7a92540f5c5c">
+<table id="_8f47dfc0-b261-4b38-b606-f1b9a72edfbf">
   <thead>
     <tr>
       <th align="left">Sequence</th>
@@ -333,13 +333,13 @@ if they are escaped with the backslash (<tt>\</tt> ASCII 92) character.</p>
     </tr>
   </tbody>
 </table>
-<p id="_03a84248-9edd-4f0d-83e4-bb13df499af9">Quoted strings are enclosed in double quotation marks (<tt>"</tt> ASCII
+<p id="_da91e039-004c-4972-818d-f2f7c6fa0032">Quoted strings are enclosed in double quotation marks (<tt>"</tt> ASCII
 34) and may contain any of the <tt>Special Characters</tt> above with the
 exception of <tt>\</tt> (ASCII 92) and <tt>"</tt> (ASCII 34). <tt>\</tt> and <tt>"</tt> must
 always be escaped.</p>
-<p id="_8978304a-52ad-4cd4-b61d-6c23d5a7a65a">The following escape sequences are recognised in both bare and quoted
+<p id="_f9987991-178b-417e-a429-9470049e2bd2">The following escape sequences are recognised in both bare and quoted
 strings:</p>
-<table id="_2a8daf31-8bc3-442c-b587-b66a107724da">
+<table id="_bea06507-658f-4163-aae0-c047abf6d848">
   <thead>
     <tr>
       <th align="left">Escape Sequence</th>
@@ -400,19 +400,19 @@ strings:</p>
     </tr>
   </tbody>
 </table>
-<p id="_cd1b38db-0f39-43fd-8f90-35f681876b9a">Multi-line strings are permitted as long as they are quoted.</p>
-<p id="_c80df812-6df2-44d2-aa26-0433ec0c2c21">Examples:</p>
-<sourcecode id="_41f500ba-5884-45c8-85b3-96b875bf7bd3">"The Rachel Papers"
+<p id="_1d0cf160-d391-4600-be63-cdad7326a0ec">Multi-line strings are permitted as long as they are quoted.</p>
+<p id="_59f76776-61b3-41a9-a0f2-2043949fee20">Examples:</p>
+<sourcecode id="_e18a3935-5484-480f-b4d2-0bce7c9bed0e">"The Rachel Papers"
 Success
 Money
 "Time's Arrow"</sourcecode></clause>
-<clause id="_list" obligation="normative"><title>List</title><p id="_44a4818d-45fe-4011-b425-6dd769a73239">A list is an ordered set of values. Lists are enclosed in square
+<clause id="_list" obligation="normative"><title>List</title><p id="_478fb87a-33af-4bbc-8d1b-ff191465a5b4">A list is an ordered set of values. Lists are enclosed in square
 braces (<tt>[]</tt> ASCII 91/93). Within the braces are zero or more values
 separated by one or more comma (<tt>,</tt> ASCII 44) or newline (ASCII 10)
 characters. Values are numbered, starting at zero. Numbers are
 assigned to each value in the order in which they are defined.</p>
-<p id="_eabea22b-5a55-4525-bab6-7b56e9d78cc6">Example:</p>
-<sourcecode id="_e9fde4db-56ed-4043-a586-139deb5152f6">[
+<p id="_96f88229-734f-4d5b-b048-78074fb1b8ce">Example:</p>
+<sourcecode id="_cbdc5f63-0b62-4474-a2ca-e2adb5a81a95">[
     Aglovale, Breunor, Claudin
     Calogrenant, Dinadan, "Elyan the White"
 
@@ -421,7 +421,7 @@ assigned to each value in the order in which they are defined.</p>
     "Meliant de Lis", Morholt
     Safir, Segwarides, Tor
 ]</sourcecode></clause>
-<clause id="_table" obligation="normative"><title>Table</title><p id="_4005b197-dea2-43d9-8ee6-3c0e389f0616">A table is an unordered set of key and value pairs. A table is
+<clause id="_table" obligation="normative"><title>Table</title><p id="_dc1af806-1c69-48fe-a1e0-3e67e5eb8ce6">A table is an unordered set of key and value pairs. A table is
 enclosed in curly braces (<tt>{}</tt> ASCII 123/125). Within the braces are
 zero or more key/value pairs. Pairs are separated by one or more comma
 (<tt>,</tt> ASCII 44) or newline (ASCII 10) characters. Keys are
@@ -430,63 +430,63 @@ separated by any combination of space (` ` ASCII 32) and tab (\t`
 ASCII 9) characters. Keys are unique with a table. If a key appears
 more than once in a table definition the last value is the only one
 retained by the table.</p>
-<p id="_1d1d56a2-ca63-4601-8d03-7864238156b2">Example:</p>
-<sourcecode id="_38da6e49-fa16-4052-8366-a0f75d5ba09a">contact {
+<p id="_2089d883-2981-426f-ba49-2ef687b1bb33">Example:</p>
+<sourcecode id="_c0de0a92-c8cb-4a24-a665-60a78be5329e">contact {
     name "John Doe"
     email {
         work "john.doe@work.domain"
         home "john@home.domain"
     }
 }</sourcecode>
-<p id="_94a7d809-9f22-4313-bd84-82bf7f56317f">An additional syntax is defined for table entries where multiple keys
+<p id="_16ec2376-3e8b-438b-bc7d-3ae0df95065a">An additional syntax is defined for table entries where multiple keys
 precede the value. This syntax is only permitted within a table value
 and has the effect of recursively defining implicit nested table
 values with the initial keys. The final key and the value are used to
 create an entry within the most deeply nested table value. Using this
 syntax the above example can be written as:</p>
-<sourcecode id="_1de62c0d-8c17-4ecf-b908-7f2036e33449">contact {
+<sourcecode id="_0eb93aac-0bf0-4662-8beb-397487103c83">contact {
     name "John Doe"
     email work "john.doe@work.domain"
     email home "john@home.domain"
 }</sourcecode>
-<p id="_2ba7aa16-bfd1-42f3-a88d-2d1a147fc947">or</p>
-<sourcecode id="_8e6b42ad-cef4-450b-9ff6-ed0115c5e580">contact name "John Doe"
+<p id="_2186b3e9-bd06-4896-8494-9755ebbc6bfb">or</p>
+<sourcecode id="_396c8e2c-1051-483f-bc9e-ebca194d8945">contact name "John Doe"
 contact email work "john.doe@work.domain"
 contact email home "john@home.domain"</sourcecode></clause>
 <clause id="_comment" obligation="normative">
   <title>Comment</title>
-  <p id="_25df2507-7913-4f59-a980-d74836def3b4">The hash (<tt>#</tt> ASCII 35) character indicates a comment which runs up to the next
+  <p id="_c87506b0-07e9-4951-9877-8b0d8735dd61">The hash (<tt>#</tt> ASCII 35) character indicates a comment which runs up to the next
 CR (<tt>\n</tt> ASCII 10).</p>
 </clause></clause>
-<clause id="_interpolation" obligation="normative"><title>Interpolation</title><p id="_c6aad657-eae2-4656-a46d-e7ad8ecd25f7">Values are interpolated when a NON document is parsed.</p>
-<clause id="_arithmetic_interpolation" obligation="normative"><title>Arithmetic interpolation</title><p id="_b8b7ade4-f4d6-4570-baec-5ef8b67bc55b">Simple arithmetic is supported with the binary operators <tt>-</tt>, <tt>+</tt>,
+<clause id="_interpolation" obligation="normative"><title>Interpolation</title><p id="_fa029bf8-a897-4d9f-a81b-61b2990eec9a">Values are interpolated when a NON document is parsed.</p>
+<clause id="_arithmetic_interpolation" obligation="normative"><title>Arithmetic interpolation</title><p id="_e01fb21d-f37f-48e4-b904-fb909b493ea9">Simple arithmetic is supported with the binary operators <tt>-</tt>, <tt>+</tt>,
 <tt>*</tt>, <tt>/</tt>, <tt>\</tt>, <tt>%</tt> and <tt>^</tt>. Binary operators must appear between to
 values and must be surrounded by one or more space (ASCII 32) or tab
 (ASCII 9) characters. The operators correspond respectively with the
 functions <tt>subtract()</tt>, <tt>add()</tt>, <tt>multiply()</tt>, <tt>divide()</tt>, <tt>intdiv()</tt>,
 <tt>modulus()</tt> and <tt>power()</tt> described below.</p>
-<sourcecode id="_a694a4f1-68b4-4a30-8f28-bcc26f9bffe1">port 8000 + 80 # port "8080"
+<sourcecode id="_0d3ad0e8-6da5-47f4-907f-14b689fa7ccb">port 8000 + 80 # port "8080"
 port 8000+80 # port "8000+80", probably not intentional!</sourcecode></clause>
-<clause id="_template_interpolation" obligation="normative"><title>Template interpolation</title><p id="_b15224c1-28c9-4522-8732-c08499b3d13b">Template values can be defined with the <tt>let()</tt> construct and reused
+<clause id="_template_interpolation" obligation="normative"><title>Template interpolation</title><p id="_1c73aa2c-537d-4b9a-817e-21a40f5f4df1">Template values can be defined with the <tt>let()</tt> construct and reused
 later on in the document. Template values may or may not accept
 arguments which will affect their expansion.</p>
-<p id="_58d4305e-6a4b-42b9-b28f-1683b2788b09">Within a template, arguments can be extracted using the <tt>arg(n)</tt>
+<p id="_5dc169a7-47a6-4b89-adf5-c49d8b8b2ecd">Within a template, arguments can be extracted using the <tt>arg(n)</tt>
 construct where <tt>n</tt> is the zero-based argument index.</p>
-<p id="_6e6deb61-008e-4957-a923-cac725bb9f78">Templates are applied by using the <tt>apply()</tt> construct. Templates
+<p id="_ba64263c-937b-4e04-8ee2-9e14892b1c54">Templates are applied by using the <tt>apply()</tt> construct. Templates
 without arguments can be applied using a special <tt>$name</tt> construct
 which is syntactic sugar for <tt>apply(name)</tt>.</p>
-<sourcecode id="_d019e637-692c-4104-85dd-d9a2e7590d24">let(base_port, 8000)
+<sourcecode id="_9dce6648-f3a4-48d0-ab8f-fe616c3745b5">let(base_port, 8000)
 let(port, $base_port + arg(0))
 
 port1 apply(port(80)) # port 8080
 port2 apply(port(81)) # port 8081
 port3 $base_port + 82 #port 8082</sourcecode></clause>
-<clause id="_functions" obligation="normative"><title>Functions</title><p id="_d0c60fe6-0a1f-459b-b44b-da52123ff23c">NON uses the <tt>name(args)</tt> construct for functions where name is a bare
+<clause id="_functions" obligation="normative"><title>Functions</title><p id="_02a7ca65-6470-4da2-a2a8-1f0841399b49">NON uses the <tt>name(args)</tt> construct for functions where name is a bare
 string and args is a comma separated list of zero or more arguments
 each of which is a valid NON value. The correct number of arguments
 will vary depending on the function.</p>
-<p id="_743bf570-a26a-4fb1-9afc-be097e449290">A NON parser supports at least the following basic functions:</p>
-<table id="_31833574-266e-446b-8db7-12b61ae4b534">
+<p id="_aa4f389a-b013-4351-b051-bc6c188fd3b2">A NON parser supports at least the following basic functions:</p>
+<table id="_f89c4ec1-8870-4da9-8c1d-25aae351121d">
   <thead>
     <tr>
       <th align="left">Function</th>
@@ -538,7 +538,7 @@ will vary depending on the function.</p>
     </tr>
   </tbody>
 </table>
-<p id="_6c5711dd-a93e-4638-8332-ccf54ade696b">A parser may also permit user defined functions to be registered prior
+<p id="_4375a4c8-0139-43ba-ac3f-70fb766b47ee">A parser may also permit user defined functions to be registered prior
 to parsing.</p></clause></clause></clause>
 </sections><bibliography><references id="_normative_references" obligation="informative">
   <title>Normative References</title>
