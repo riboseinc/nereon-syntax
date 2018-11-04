@@ -1,22 +1,30 @@
+#!make
 SHELL := /bin/bash
 
-DOCTYPE  := rsd
-COMPILE_CMD_LOCAL := bundle exec metanorma -t $(DOCTYPE) -x xml,pdf,html,doc $$FILENAME
-COMPILE_CMD_DOCKER := docker run -v "$$(pwd)":/metanorma/ ribose/metanorma "metanorma -t $(DOCTYPE) -x xml,pdf,html,doc $$FILENAME"
+include metanorma.env
+export $(shell sed 's/=.*//' metanorma.env)
 
-ifdef METANORMA_DOCKER
-  COMPILE_CMD := echo "Compiling via docker..."; $(COMPILE_CMD_DOCKER)
-else
-  COMPILE_CMD := echo "Compiling locally"; $(COMPILE_CMD_LOCAL)
-endif
+DOCTYPE := $(METANORMA_DOCTYPE)
+FORMATS := $(METANORMA_FORMATS)
+comma := ,
+empty :=
+space := $(empty) $(empty)
+FORMATS_LIST := $(subst $(space),$(comma),$(FORMATS))
 
-SRC := $(wildcard ${DOCTYPE}-*.adoc)
+SRC  := $(filter-out README.adoc, $(wildcard *.adoc))
 XML  := $(patsubst %.adoc,%.xml,$(SRC))
 HTML := $(patsubst %.adoc,%.html,$(SRC))
 DOC  := $(patsubst %.adoc,%.doc,$(SRC))
 PDF  := $(patsubst %.adoc,%.pdf,$(SRC))
 
-FORMATS := html doc xml pdf
+COMPILE_CMD_LOCAL := bundle exec metanorma -t $(DOCTYPE) -x $(FORMATS_LIST) $$FILENAME
+COMPILE_CMD_DOCKER := docker run -v "$$(pwd)":/metanorma/ ribose/metanorma "metanorma -t $(DOCTYPE) -x $(FORMATS_LIST) $$FILENAME"
+
+ifdef METANORMA_DOCKER
+  COMPILE_CMD := echo "Compiling via docker..."; $(COMPILE_CMD_DOCKER)
+else
+  COMPILE_CMD := echo "Compiling locally..."; $(COMPILE_CMD_LOCAL)
+endif
 
 _OUT_FILES := $(foreach FORMAT,$(FORMATS),$(shell echo $(FORMAT) | tr '[:lower:]' '[:upper:]'))
 OUT_FILES  := $(foreach F,$(_OUT_FILES),$($F))
@@ -99,6 +107,16 @@ watch-serve: $(NODE_BIN_DIR)/run-p
 #
 
 publish:
-	mkdir -p published
-	cp -a $(OUT_FILES) images published/
-	cp $(firstword $(HTML)) published/index.html
+	mkdir -p published  && \
+	cp -a $(basename $(SRC)).* published/ && \
+	cp $(firstword $(HTML)) published/index.html; \
+	if [ -d "images" ]; then cp -a images published; fi
+
+deploy_key:
+	openssl aes-256-cbc -K $(encrypted_$(ENCRYPTION_LABEL)_key) \
+		-iv $(encrypted_$(ENCRYPTION_LABEL)_iv) -in $@.enc -out $@ -d && \
+	chmod 600 $@
+
+deploy: deploy_key
+	export COMMIT_AUTHOR_EMAIL=$(COMMIT_AUTHOR_EMAIL); \
+	./deploy.sh
